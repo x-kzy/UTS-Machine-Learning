@@ -195,7 +195,7 @@ Capaian utama proyek versi uts ini meliputi:
 
 Hasil tersebut menunjukkan kemampuan awal untuk mengenali penyimpangan selama interval gangguan. Ketepatan alarm masih perlu diperbaiki karena K-Means melewatkan delapan jendela laporan dan menghasilkan 1.218 jendela alarm di luar laporan. Alarm di luar laporan perlu diperiksa lebih lanjut karena waktu yang tidak tercatat sebagai gangguan belum tentu menunjukkan kondisi mesin yang sehat.
 
-**Hasil UTS memberikan dasar eksperimen untuk pemantauan kondisi mesin**, dengan keterbatasan pada kelengkapan laporan gangguan dan cakupan data dari satu kompresor. Kemampuan menentukan penyebab kerusakan, memberikan peringatan sebelum gangguan, dan digunakan dalam kegiatan industri masih memerlukan pembuktian lanjutan. Pengembangan menuju UAS diarahkan pada verifikasi laporan gangguan, pengujian kontribusi fitur, penyesuaian ambang dan beban alarm, serta evaluasi pada periode atau data baru apabila tersedia.
+**Hasil versi UTS memberikan dasar eksperimen untuk pemantauan kondisi mesin**, dengan keterbatasan pada kelengkapan laporan gangguan dan cakupan data dari satu kompresor. Kemampuan menentukan penyebab kerusakan, memberikan peringatan sebelum gangguan, dan digunakan dalam kegiatan industri masih memerlukan pembuktian lanjutan. Pengembangan menuju UAS diarahkan pada verifikasi laporan gangguan, pengujian kontribusi fitur, penyesuaian ambang dan beban alarm, serta evaluasi pada periode atau data baru apabila tersedia.
 
 ## Sumber dan lisensi
 
