@@ -1,4 +1,5 @@
 <div align="center">
+
 # DETEKSI ANOMALI PADA DATA SENSOR DAN KONDISI MESIN INDUSTRI MENGGUNAKAN DATASET METROPT-3
 
 ### Kelompok 5
@@ -45,6 +46,7 @@
 - [Source Google Colab UTS](https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy?usp=sharing)
 - [Notebook final beserta output run](notebooks/UTS_ML_B10_Kelompok5.ipynb)
 - [Laporan UTS](reports/Laporan_UTS_ML_B10_Kelompok5.docx)
+- [Milestone UTS Minggu 2-6](https://github.com/x-kzy/UTS-Machine-Learning/blob/main/MILESTONE%20UTS%20ML%20M2-M6.pdf)
 - [Dataset resmi UCI MetroPT-3](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset)
 - [Galeri hasil seluruh 14 section](docs/GALLERY.md)
 - [Daftar eksperimen dan hasilnya](docs/EXPERIMENTS.md)
@@ -179,4 +181,5 @@ Model berhasil mendeteksi dua dari dua interval gangguan pada benchmark. Namun, 
 Pada eksperimen ini, penggunaan PCA dan penambahan tiga fitur rekayasa belum meningkatkan nilai AP dibandingkan pembandingnya. Temuan dan keterbatasan tersebut menjadi dasar penyusunan [rencana pengembangan selanjutnya](docs/PROGRESS_AND_PLAN.md).
 
 ## Sumber dan lisensi
+
 Dataset: Davari, N., Veloso, B., Ribeiro, R., dan Gama, J. (2021), **MetroPT-3 Dataset**, UCI Machine Learning Repository, DOI [10.24432/C5VW3R](https://doi.org/10.24432/C5VW3R), lisensi **CC BY 4.0**. Atribusi dan ketentuan data dipertahankan di [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Lisensi kode mengikuti [LICENSE](LICENSE) yang sudah ada pada repository.
