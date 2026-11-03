@@ -1,0 +1,11 @@
+index,fitur,mean_abs_z_on_alarm,mean_abs_z_all_validation
+6,DV_pressure__mean,49.2004,6.4214
+18,Pressure_switch__duty,15.8923,2.2768
+17,MPG__duty,5.5395,1.5405
+16,Towers__duty,5.3638,1.5115
+15,DV_eletric__duty,5.1929,1.5008
+14,COMP__duty,4.8927,1.4663
+4,H1__mean,4.399,1.4007
+0,TP2__mean,4.2933,1.3887
+10,Oil_temperature__mean,4.1228,1.8838
+12,Motor_current__mean,2.0382,1.116

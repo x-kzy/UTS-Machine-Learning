@@ -1,0 +1,4 @@
+model,AP_proxy,F1_proxy,event_recall_report,outside_report_episodes_per_monitored_day,fit_seconds
+KMeans,0.29745,0.26037,1.0,0.6765,0.12437
+PCA_KMeans,0.29072,0.25931,1.0,0.74415,0.10375
+IsolationForest,0.11051,0.39624,1.0,0.43296,0.52715

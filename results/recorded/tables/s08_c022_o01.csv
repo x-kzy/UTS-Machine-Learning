@@ -1,0 +1,4 @@
+model,fit_windows,fitur_awal,setelah_filter,dimensi_model,threshold_P99,fit_seconds
+KMeans,4982,25,22,22,45.6311,0.1244
+PCA_KMeans,4982,25,22,7,36.7491,0.1037
+IsolationForest,4982,25,22,22,0.6592,0.5271

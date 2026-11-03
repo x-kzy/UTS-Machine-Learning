@@ -1,0 +1,6 @@
+,Fitur,Definisi,Alasan / dampak yang diharapkan
+0,14 analog,mean dan sample std (ddof=1),Level dan variasi; satuan mengikuti sensor
+1,8 duty digital,mean setiap 0/1,Proporsi aktif; bukan volume aliran untuk Caudal_impulses
+2,pressure_gap_mean,mean(TP3 - Reservoirs),"Perbedaan tekanan panel dan reservoir, bar"
+3,motor_load_fraction,mean(Motor_current >= 6 A),Heuristik di antara mode sekitar 4 A dan 7 A dari deskripsi
+4,oil_temperature_range,max - min suhu oli,"Variasi suhu di dalam jendela, °C"

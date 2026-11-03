@@ -1,0 +1,4 @@
+kondisi_beban,n_windows,reported_windows,alarm_windows,missed_report_windows,alarms_outside_report,miss_rate_proxy,alarm_rate
+Beban jarang,16107,363,2160,2,1799,0.005509641873278237,0.13410318495064258
+Campuran,5120,1,234,1,234,1.0,0.045703125
+Beban dominan,59,0,15,0,15,,0.2542372881355932

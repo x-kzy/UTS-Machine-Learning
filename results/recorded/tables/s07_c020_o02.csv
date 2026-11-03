@@ -1,0 +1,4 @@
+cluster,n_windows,proporsi,TP3__mean,Motor_current__mean,Oil_temperature__mean,pressure_gap_mean,motor_load_fraction
+0,4108,0.8246,8.93,0.7731,56.7366,-0.0025,0.0012
+1,795,0.1596,9.1025,3.3919,56.895,-0.001,0.1685
+2,79,0.0159,9.2894,3.7446,58.0592,-0.001,0.1484

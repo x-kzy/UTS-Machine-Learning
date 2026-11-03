@@ -1,0 +1,13 @@
+feature,month,train_mean,validation_month_mean,standardized_mean_difference
+TP3__mean,2020-03,8.9633,9.0441,0.1682
+TP3__mean,2020-04,8.9633,9.0322,0.1435
+TP3__mean,2020-05,8.9633,8.8923,-0.1476
+Oil_temperature__mean,2020-03,56.7828,62.1864,1.6209
+Oil_temperature__mean,2020-04,56.7828,59.4607,0.8033
+Oil_temperature__mean,2020-05,56.7828,62.2414,1.6374
+Motor_current__mean,2020-03,1.2381,2.0769,0.5208
+Motor_current__mean,2020-04,1.2381,1.8554,0.3832
+Motor_current__mean,2020-05,1.2381,1.9839,0.463
+pressure_gap_mean,2020-03,-0.0022,0.0006,1.5528
+pressure_gap_mean,2020-04,-0.0022,-0.0003,1.0324
+pressure_gap_mean,2020-05,-0.0022,-0.0009,0.7032

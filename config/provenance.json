@@ -1,0 +1,63 @@
+{
+  "project": "B10",
+  "group": 5,
+  "repository": "https://github.com/x-kzy/UTS-Machine-Learning",
+  "canonical_notebook": {
+    "file": "notebooks/UTS_ML_B10_Kelompok5.ipynb",
+    "source_name": "UTS_Data_Sensor_dan_Kondisi_Mesin_Industri_(B10)_Kelompok5(1).ipynb",
+    "sha256": "368bc40d2e3e6e8afd97fa80ec3d9c0b73af21ebfe6f2615eaf3d6ab25e10603",
+    "computational_code_sha256": "2400009602a0ca64d79bfb1d201493540745059daecca9793a91ec1bee0a6664"
+  },
+  "colab": {
+    "url": "https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy",
+    "computational_code_matches_attached_notebook": true
+  },
+  "report": {
+    "file": "reports/Laporan_UTS_ML_B10_Kelompok5.docx",
+    "sha256": "be86e2b4bbd30fb82f677ad64bb271ea06f9e364ad1e08c7dfc75912dcb46f6e",
+    "copied_without_content_changes": true
+  },
+  "dataset": {
+    "url": "https://archive.ics.uci.edu/dataset/791/metropt+3+dataset",
+    "license": "CC BY 4.0",
+    "zip_sha256": "aab991a970e58210de853bb8078ce0e63abb4d9412fdc5c79792dae3d8e1721a",
+    "csv_sha256": "db30ccb4ea402e3c8bf2c99db06e288d4f2a772f6928f9dbe26a920d69793e24",
+    "sample_rows": 1000
+  },
+  "reproduction": {
+    "code_cells_executed": 20,
+    "existing_source_and_hyperparameters_preserved": true,
+    "test_metrics_match_saved_output_at_4_decimals": true,
+    "window_counts": [
+      4982,
+      2093,
+      21286,
+      21915
+    ],
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "matplotlib": "3.10.8",
+      "seaborn": "0.13.2"
+    },
+    "model_hashes_preserved": true,
+    "integrity_checks_passed": 6
+  },
+  "evidence": {
+    "plots_from_saved_notebook": 18,
+    "tables_from_saved_notebook": 52,
+    "table_images_rendered_from_saved_values": 14,
+    "stages": 14
+  },
+  "repository_verification": {
+    "local_markdown_links_checked": 180,
+    "png_images_verified": 32,
+    "git_upload_simulation": "passed",
+    "previous_history_preserved_in_simulation": true,
+    "windows_cmd_execution": "not run in this Linux workspace"
+  }
+}

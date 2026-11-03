@@ -1,0 +1,6 @@
+,split,insufficient_samples,large_internal_gap,large_left_gap,large_right_gap,excess_sensor_missing,unfinished_window
+0,calibration,494,0,492,492,486,0
+1,excluded_embargo,2,0,2,2,2,0
+2,test,4582,12,4511,4514,4409,0
+3,train,770,0,756,753,731,0
+4,validation,5149,9,5090,5092,4982,0

@@ -1,0 +1,8 @@
+Parameter,Nilai
+n_clusters,3
+init,k-means++
+n_init,10
+max_iter,300
+Ambang,45.631065
+Fitur tersisa,22
+Waktu fit (s),0.124

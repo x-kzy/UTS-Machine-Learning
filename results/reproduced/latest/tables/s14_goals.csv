@@ -1,0 +1,6 @@
+,Tujuan / batas penggunaan,Status,Bukti hasil
+0,Menghasilkan skor dan alarm,Tercapai,"21,915 jendela uji; proporsi alarm 8.37%"
+1,Membandingkan kandidat,Tercapai,3 kandidat; pilihan dari AP validasi: KMeans
+2,Kesesuaian dengan interval gangguan,Didukung pada seluruh interval uji,2/2 interval terdeteksi; 8 jendela laporan tanpa alarm
+3,Menilai ketepatan alarm,Masih memerlukan verifikasi,"Precision proxy 0.3362; 1,218 alarm di luar laporan"
+4,Membuktikan kelayakan operasional,Belum dapat disimpulkan,Label laporan lemah dan kejadian terbatas pada satu kompresor

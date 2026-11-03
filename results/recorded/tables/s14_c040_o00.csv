@@ -1,0 +1,5 @@
+model,AP validasi,AP uji,Precision uji,Recall uji,F1 uji,Alarm (%),Interval terdeteksi,Pilihan validasi
+Kontrol_tanpa_alarm,-,0.0285,0.0,0.0,0.0,0.0,0/2,-
+KMeans,0.2974,0.8685,0.3362,0.9872,0.5016,8.3733,2/2,Ya
+PCA_KMeans,0.2907,0.8667,0.3342,0.9872,0.4994,8.4235,2/2,-
+IsolationForest,0.1105,0.4293,0.435,0.9856,0.6036,6.4613,2/2,-

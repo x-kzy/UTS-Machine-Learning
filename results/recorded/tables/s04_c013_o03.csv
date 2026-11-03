@@ -1,0 +1,8 @@
+Masalah,Penanganan,Alasan
+Timestamp rusak/duplikat,"Hapus timestamp invalid, sort, keep-last untuk...",Menghindari urutan waktu ambigu
+Vektor sensor sama pada waktu berbeda,Pertahankan,Operasi diam/stabil tetap observasi yang valid
+Digital di luar 0/1 dan infinity,"Ubah NaN, laporkan jumlah; jangan ubah polarit...",Kualitas sensor tidak disamakan dengan kondisi...
+Jeda dan jendela parsial,"Keluarkan jendela gagal aturan kualitas, lapor...",Tidak menginterpolasi gangguan perekaman
+NaN tersisa dalam fitur,"SimpleImputer median, fit train/fold-train saja",Tanpa statistik masa depan
+Konstan/skala/korelasi,VarianceThreshold -> StandardScaler -> PCA unt...,Semua dipelajari di dalam Pipeline
+Outlier analog,"Pertahankan dan audit, tanpa capping/IQR remov...",Anomali dapat berada pada ekor distribusi

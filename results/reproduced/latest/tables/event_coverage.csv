@@ -1,0 +1,5 @@
+,event_id,raw_rows_in_report,expected_overlap_windows,usable_overlap_windows,invalid_overlap_windows,usable_overlap_fraction,split
+0,F01,8657,288,286,2,0.9930555555555556,validation
+1,F02,2360,78,78,0,1.0,validation
+2,F03,17315,630,571,59,0.9063492063492063,test
+3,F04,1622,54,53,1,0.9814814814814815,test

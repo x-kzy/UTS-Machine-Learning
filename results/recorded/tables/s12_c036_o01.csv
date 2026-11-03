@@ -1,0 +1,7 @@
+pemeriksaan,lulus
+Raw sensor -> fitur -> skor sama dengan matrik...,True
+Serialisasi joblib mempertahankan skor dan alarm,True
+State antarbatch sama dengan batch penuh pada ...,True
+Jeda waktu mereset persistensi,True
+Fitur jendela selesai tidak berubah oleh tamba...,True
+Modul file mandiri bekerja tanpa global notebook,True

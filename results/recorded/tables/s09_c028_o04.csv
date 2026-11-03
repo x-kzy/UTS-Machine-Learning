@@ -1,0 +1,7 @@
+event_id,report_start,report_end,expected_overlap_windows,usable_overlap_windows,observed_report_windows,decision_windows_in_report,post_report_label_windows,coverage_fraction,status_observation,detected_during_report,first_alarm,delay_from_report_start_min,model
+F01,2020-04-18 00:00:00,2020-04-18 23:59:00,288,286,286,285,1,0.993056,teramati_sebagian,True,2020-04-18 00:05:00,5.0,KMeans
+F02,2020-05-29 23:30:00,2020-05-30 06:00:00,78,78,78,78,0,1.0,teramati_penuh,True,2020-05-29 23:35:00,5.0,KMeans
+F01,2020-04-18 00:00:00,2020-04-18 23:59:00,288,286,286,285,1,0.993056,teramati_sebagian,True,2020-04-18 00:05:00,5.0,PCA_KMeans
+F02,2020-05-29 23:30:00,2020-05-30 06:00:00,78,78,78,78,0,1.0,teramati_penuh,True,2020-05-29 23:35:00,5.0,PCA_KMeans
+F01,2020-04-18 00:00:00,2020-04-18 23:59:00,288,286,286,285,1,0.993056,teramati_sebagian,True,2020-04-18 00:40:00,40.0,IsolationForest
+F02,2020-05-29 23:30:00,2020-05-30 06:00:00,78,78,78,78,0,1.0,teramati_penuh,True,2020-05-29 23:35:00,5.0,IsolationForest

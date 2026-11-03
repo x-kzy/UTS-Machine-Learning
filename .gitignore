@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+.upload-work/
+hasil_b10/
+data/MetroPT3(AirCompressor)*.csv
+data/metropt+3+dataset*.zip
+*.part
+*.tmp
+.DS_Store
+Thumbs.db

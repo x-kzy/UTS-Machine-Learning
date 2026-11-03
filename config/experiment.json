@@ -1,0 +1,71 @@
+{
+  "project_id": "B10",
+  "run_id": "20261103T140740_717497Z",
+  "selected_model": "KMeans",
+  "feature_columns": [
+    "TP2__mean",
+    "TP2__std",
+    "TP3__mean",
+    "TP3__std",
+    "H1__mean",
+    "H1__std",
+    "DV_pressure__mean",
+    "DV_pressure__std",
+    "Reservoirs__mean",
+    "Reservoirs__std",
+    "Oil_temperature__mean",
+    "Oil_temperature__std",
+    "Motor_current__mean",
+    "Motor_current__std",
+    "COMP__duty",
+    "DV_eletric__duty",
+    "Towers__duty",
+    "MPG__duty",
+    "LPS__duty",
+    "Pressure_switch__duty",
+    "Oil_level__duty",
+    "Caudal_impulses__duty",
+    "pressure_gap_mean",
+    "motor_load_fraction",
+    "oil_temperature_range"
+  ],
+  "feature_config": {
+    "analog": [
+      "TP2",
+      "TP3",
+      "H1",
+      "DV_pressure",
+      "Reservoirs",
+      "Oil_temperature",
+      "Motor_current"
+    ],
+    "digital": [
+      "COMP",
+      "DV_eletric",
+      "Towers",
+      "MPG",
+      "LPS",
+      "Pressure_switch",
+      "Oil_level",
+      "Caudal_impulses"
+    ],
+    "window": "5min",
+    "cadence_seconds": 10.0,
+    "min_observations": 20,
+    "max_gap_seconds": 60,
+    "max_sensor_missing_fraction": 0.1,
+    "motor_load_ampere": 6.0
+  },
+  "seed": 42,
+  "base_k": 3,
+  "quantile": 0.99,
+  "persistence": 3,
+  "thresholds": {
+    "KMeans": 45.63106488001803,
+    "PCA_KMeans": 36.7490645894793,
+    "IsolationForest": 0.6592020523296697
+  },
+  "selection_basis": "AP proxy validation, then event recall, F1, model name",
+  "benchmark_previously_inspected": true,
+  "repository_url": "https://github.com/x-kzy/UTS-Machine-Learning"
+}

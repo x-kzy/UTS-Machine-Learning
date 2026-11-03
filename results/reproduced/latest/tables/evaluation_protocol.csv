@@ -1,0 +1,6 @@
+,Tahap,Data,Peran
+0,Fit,Train Februari awal,"Imputer, filter konstan, scaler, PCA bila ada, dan estimator"
+1,Kalibrasi,Februari akhir,Kuantil skor; tanpa label gangguan dan tanpa refit model
+2,Pemilihan,Validasi Maret-Mei,AP proxy utama; event recall dan F1 sebagai tie-break yang ditetapkan
+3,Sensitivitas,Validasi saja,"Eksperimen diagnostik, tidak mengganti konfigurasi utama dalam run ini"
+4,Benchmark,Juni-akhir; telah terlihat pada versi lama,Semua kandidat beku dievaluasi; bukan sumber tuning atau klaim hold-out baru

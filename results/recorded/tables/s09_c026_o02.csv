@@ -1,0 +1,4 @@
+model,mean_exceed_rate,std_exceed_rate,mean_alarm_rate,std_alarm_rate,mean_fit_seconds,mean_relative_score,std_relative_score,mean_silhouette,std_silhouette
+IsolationForest,0.0136,0.0099,0.0,0.0,0.6289,0.6122,0.0258,,
+KMeans,0.0153,0.0115,0.0,0.0,0.0673,0.1143,0.0151,0.5795,0.1275
+PCA_KMeans,0.0171,0.0137,0.0,0.0,0.1363,0.1112,0.0199,0.5958,0.13

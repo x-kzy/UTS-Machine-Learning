@@ -1,0 +1,4 @@
+window_end,TP2__mean,TP2__std,TP3__mean,TP3__std,H1__mean,H1__std,DV_pressure__mean,DV_pressure__std,Reservoirs__mean,Reservoirs__std,Oil_temperature__mean,Oil_temperature__std,Motor_current__mean,Motor_current__std,COMP__duty,DV_eletric__duty,Towers__duty,MPG__duty,LPS__duty,Pressure_switch__duty,Oil_level__duty,Caudal_impulses__duty,pressure_gap_mean,motor_load_fraction,oil_temperature_range
+2020-02-01 00:05:00,-0.012645,0.00095,9.203742,0.093492,9.187548,0.093172,-0.022839,0.001003,9.203935,0.093568,53.325806,0.162722,0.040081,0.000786,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,-0.000194,0.0,0.575
+2020-02-01 00:10:00,-0.0134,0.000932,8.898667,0.085163,8.883933,0.085253,-0.022733,0.00098,8.899867,0.085295,52.7425,0.244522,0.039917,0.0008,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,-0.0012,0.0,0.8
+2020-02-01 00:15:00,-0.0138,0.00061,8.616667,0.080064,8.6028,0.080316,-0.023267,0.00098,8.617333,0.080386,51.8625,0.275098,0.039583,0.000948,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,-0.000667,0.0,0.95

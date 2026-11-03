@@ -1,0 +1,1245 @@
+[
+  {
+    "experiment_id": "E001",
+    "model": "KMeans",
+    "seed": 42,
+    "train_n": 4982,
+    "cal_n": 2093,
+    "n_input_features": 25,
+    "fit_seconds": 0.0488605750001625,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-21 00:00:00",
+    "cal_start": "2020-02-21 00:10:00",
+    "cal_end": "2020-02-28 23:55:00",
+    "train_index_sha256": "9c0951d05562fd573a985bf2a27585b5609b9228f9fb33f848b3fb00fd0f9b4f",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 45.63106488001803
+  },
+  {
+    "experiment_id": "E002",
+    "model": "PCA_KMeans",
+    "seed": 42,
+    "train_n": 4982,
+    "cal_n": 2093,
+    "n_input_features": 25,
+    "fit_seconds": 0.02782235299991953,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-21 00:00:00",
+    "cal_start": "2020-02-21 00:10:00",
+    "cal_end": "2020-02-28 23:55:00",
+    "train_index_sha256": "9c0951d05562fd573a985bf2a27585b5609b9228f9fb33f848b3fb00fd0f9b4f",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "pca",
+          "PCA(n_components=0.95, svd_solver='full')"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "pca": "PCA(n_components=0.95, svd_solver='full')",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "pca__copy": true,
+      "pca__iterated_power": "auto",
+      "pca__n_components": 0.95,
+      "pca__n_oversamples": 10,
+      "pca__power_iteration_normalizer": "auto",
+      "pca__random_state": null,
+      "pca__svd_solver": "full",
+      "pca__tol": 0.0,
+      "pca__whiten": false,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 36.7490645894793
+  },
+  {
+    "experiment_id": "E003",
+    "model": "IsolationForest",
+    "seed": 42,
+    "train_n": 4982,
+    "cal_n": 2093,
+    "n_input_features": 25,
+    "fit_seconds": 0.19760725100013588,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-21 00:00:00",
+    "cal_start": "2020-02-21 00:10:00",
+    "cal_end": "2020-02-28 23:55:00",
+    "train_index_sha256": "9c0951d05562fd573a985bf2a27585b5609b9228f9fb33f848b3fb00fd0f9b4f",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__bootstrap": false,
+      "model__contamination": "auto",
+      "model__max_features": 1.0,
+      "model__max_samples": 256,
+      "model__n_estimators": 200,
+      "model__n_jobs": 2,
+      "model__random_state": 42,
+      "model__verbose": 0,
+      "model__warm_start": false
+    },
+    "threshold": 0.6592020523296697
+  },
+  {
+    "experiment_id": "E004",
+    "model": "KMeans",
+    "seed": 42,
+    "train_n": 656,
+    "cal_n": 192,
+    "n_input_features": 25,
+    "fit_seconds": 0.012404192000303738,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-03 15:50:00",
+    "cal_start": "2020-02-03 16:00:00",
+    "cal_end": "2020-02-04 07:55:00",
+    "train_index_sha256": "1866941205c0033acca8d217ef719655e556f7857a1e6381dc0310421162a685",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 33.30032171731587
+  },
+  {
+    "experiment_id": "E005",
+    "model": "PCA_KMeans",
+    "seed": 42,
+    "train_n": 656,
+    "cal_n": 192,
+    "n_input_features": 25,
+    "fit_seconds": 0.021602674999940064,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-03 15:50:00",
+    "cal_start": "2020-02-03 16:00:00",
+    "cal_end": "2020-02-04 07:55:00",
+    "train_index_sha256": "1866941205c0033acca8d217ef719655e556f7857a1e6381dc0310421162a685",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "pca",
+          "PCA(n_components=0.95, svd_solver='full')"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "pca": "PCA(n_components=0.95, svd_solver='full')",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "pca__copy": true,
+      "pca__iterated_power": "auto",
+      "pca__n_components": 0.95,
+      "pca__n_oversamples": 10,
+      "pca__power_iteration_normalizer": "auto",
+      "pca__random_state": null,
+      "pca__svd_solver": "full",
+      "pca__tol": 0.0,
+      "pca__whiten": false,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 27.24546429351929
+  },
+  {
+    "experiment_id": "E006",
+    "model": "IsolationForest",
+    "seed": 42,
+    "train_n": 656,
+    "cal_n": 192,
+    "n_input_features": 25,
+    "fit_seconds": 0.17506379299993569,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-03 15:50:00",
+    "cal_start": "2020-02-03 16:00:00",
+    "cal_end": "2020-02-04 07:55:00",
+    "train_index_sha256": "1866941205c0033acca8d217ef719655e556f7857a1e6381dc0310421162a685",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__bootstrap": false,
+      "model__contamination": "auto",
+      "model__max_features": 1.0,
+      "model__max_samples": 256,
+      "model__n_estimators": 200,
+      "model__n_jobs": 2,
+      "model__random_state": 42,
+      "model__verbose": 0,
+      "model__warm_start": false
+    },
+    "threshold": 0.6211268920812032
+  },
+  {
+    "experiment_id": "E007",
+    "model": "KMeans",
+    "seed": 42,
+    "train_n": 1311,
+    "cal_n": 272,
+    "n_input_features": 25,
+    "fit_seconds": 0.011963939999986906,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-06 02:05:00",
+    "cal_start": "2020-02-06 08:00:00",
+    "cal_end": "2020-02-07 15:55:00",
+    "train_index_sha256": "4948b3a6a5f83a326f7951156eedad78d87a89eead6562a575a9521618257fdb",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 45.75415709133322
+  },
+  {
+    "experiment_id": "E008",
+    "model": "PCA_KMeans",
+    "seed": 42,
+    "train_n": 1311,
+    "cal_n": 272,
+    "n_input_features": 25,
+    "fit_seconds": 0.014663196000128664,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-06 02:05:00",
+    "cal_start": "2020-02-06 08:00:00",
+    "cal_end": "2020-02-07 15:55:00",
+    "train_index_sha256": "4948b3a6a5f83a326f7951156eedad78d87a89eead6562a575a9521618257fdb",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "pca",
+          "PCA(n_components=0.95, svd_solver='full')"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "pca": "PCA(n_components=0.95, svd_solver='full')",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "pca__copy": true,
+      "pca__iterated_power": "auto",
+      "pca__n_components": 0.95,
+      "pca__n_oversamples": 10,
+      "pca__power_iteration_normalizer": "auto",
+      "pca__random_state": null,
+      "pca__svd_solver": "full",
+      "pca__tol": 0.0,
+      "pca__whiten": false,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 39.84517276232806
+  },
+  {
+    "experiment_id": "E009",
+    "model": "IsolationForest",
+    "seed": 42,
+    "train_n": 1311,
+    "cal_n": 272,
+    "n_input_features": 25,
+    "fit_seconds": 0.2052052150002055,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-06 02:05:00",
+    "cal_start": "2020-02-06 08:00:00",
+    "cal_end": "2020-02-07 15:55:00",
+    "train_index_sha256": "4948b3a6a5f83a326f7951156eedad78d87a89eead6562a575a9521618257fdb",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__bootstrap": false,
+      "model__contamination": "auto",
+      "model__max_features": 1.0,
+      "model__max_samples": 256,
+      "model__n_estimators": 200,
+      "model__n_jobs": 2,
+      "model__random_state": 42,
+      "model__verbose": 0,
+      "model__warm_start": false
+    },
+    "threshold": 0.6616037516816755
+  },
+  {
+    "experiment_id": "E010",
+    "model": "KMeans",
+    "seed": 42,
+    "train_n": 1962,
+    "cal_n": 485,
+    "n_input_features": 25,
+    "fit_seconds": 0.018138167999950383,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-08 23:50:00",
+    "cal_start": "2020-02-09 00:00:00",
+    "cal_end": "2020-02-10 23:55:00",
+    "train_index_sha256": "3c41383a2021d415e8b0718563ed73350071918c5fa84b35ed8e32da991e9f42",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 55.253152297273004
+  },
+  {
+    "experiment_id": "E011",
+    "model": "PCA_KMeans",
+    "seed": 42,
+    "train_n": 1962,
+    "cal_n": 485,
+    "n_input_features": 25,
+    "fit_seconds": 0.1291032770000129,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-08 23:50:00",
+    "cal_start": "2020-02-09 00:00:00",
+    "cal_end": "2020-02-10 23:55:00",
+    "train_index_sha256": "3c41383a2021d415e8b0718563ed73350071918c5fa84b35ed8e32da991e9f42",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "pca",
+          "PCA(n_components=0.95, svd_solver='full')"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "pca": "PCA(n_components=0.95, svd_solver='full')",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "pca__copy": true,
+      "pca__iterated_power": "auto",
+      "pca__n_components": 0.95,
+      "pca__n_oversamples": 10,
+      "pca__power_iteration_normalizer": "auto",
+      "pca__random_state": null,
+      "pca__svd_solver": "full",
+      "pca__tol": 0.0,
+      "pca__whiten": false,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 54.07825414866676
+  },
+  {
+    "experiment_id": "E012",
+    "model": "IsolationForest",
+    "seed": 42,
+    "train_n": 1962,
+    "cal_n": 485,
+    "n_input_features": 25,
+    "fit_seconds": 0.18992658400020446,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-08 23:50:00",
+    "cal_start": "2020-02-09 00:00:00",
+    "cal_end": "2020-02-10 23:55:00",
+    "train_index_sha256": "3c41383a2021d415e8b0718563ed73350071918c5fa84b35ed8e32da991e9f42",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__bootstrap": false,
+      "model__contamination": "auto",
+      "model__max_features": 1.0,
+      "model__max_samples": 256,
+      "model__n_estimators": 200,
+      "model__n_jobs": 2,
+      "model__random_state": 42,
+      "model__verbose": 0,
+      "model__warm_start": false
+    },
+    "threshold": 0.6790121018547081
+  },
+  {
+    "experiment_id": "E013",
+    "model": "KMeans",
+    "seed": 42,
+    "train_n": 2595,
+    "cal_n": 624,
+    "n_input_features": 25,
+    "fit_seconds": 0.017979370999910316,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-11 15:50:00",
+    "cal_start": "2020-02-11 16:00:00",
+    "cal_end": "2020-02-14 07:55:00",
+    "train_index_sha256": "6174a016939bb3a444ef9051c0aab4193ea590bb2ecd5f8f0c4d165dfac1b72f",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 58.75487654772226
+  },
+  {
+    "experiment_id": "E014",
+    "model": "PCA_KMeans",
+    "seed": 42,
+    "train_n": 2595,
+    "cal_n": 624,
+    "n_input_features": 25,
+    "fit_seconds": 0.02265008999984275,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-11 15:50:00",
+    "cal_start": "2020-02-11 16:00:00",
+    "cal_end": "2020-02-14 07:55:00",
+    "train_index_sha256": "6174a016939bb3a444ef9051c0aab4193ea590bb2ecd5f8f0c4d165dfac1b72f",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "pca",
+          "PCA(n_components=0.95, svd_solver='full')"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "pca": "PCA(n_components=0.95, svd_solver='full')",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "pca__copy": true,
+      "pca__iterated_power": "auto",
+      "pca__n_components": 0.95,
+      "pca__n_oversamples": 10,
+      "pca__power_iteration_normalizer": "auto",
+      "pca__random_state": null,
+      "pca__svd_solver": "full",
+      "pca__tol": 0.0,
+      "pca__whiten": false,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 51.89015180975953
+  },
+  {
+    "experiment_id": "E015",
+    "model": "IsolationForest",
+    "seed": 42,
+    "train_n": 2595,
+    "cal_n": 624,
+    "n_input_features": 25,
+    "fit_seconds": 0.18669507200002045,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-11 15:50:00",
+    "cal_start": "2020-02-11 16:00:00",
+    "cal_end": "2020-02-14 07:55:00",
+    "train_index_sha256": "6174a016939bb3a444ef9051c0aab4193ea590bb2ecd5f8f0c4d165dfac1b72f",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__bootstrap": false,
+      "model__contamination": "auto",
+      "model__max_features": 1.0,
+      "model__max_samples": 256,
+      "model__n_estimators": 200,
+      "model__n_jobs": 2,
+      "model__random_state": 42,
+      "model__verbose": 0,
+      "model__warm_start": false
+    },
+    "threshold": 0.6664253139736125
+  },
+  {
+    "experiment_id": "E016",
+    "model": "KMeans",
+    "seed": 42,
+    "train_n": 3219,
+    "cal_n": 906,
+    "n_input_features": 25,
+    "fit_seconds": 0.020787940999980492,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-14 07:50:00",
+    "cal_start": "2020-02-14 08:00:00",
+    "cal_end": "2020-02-17 15:55:00",
+    "train_index_sha256": "01f11f08a2f7da50fff7167e2d6659d57f244ab07958fb18e0c16d239ebb120b",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 46.483614224443066
+  },
+  {
+    "experiment_id": "E017",
+    "model": "PCA_KMeans",
+    "seed": 42,
+    "train_n": 3219,
+    "cal_n": 906,
+    "n_input_features": 25,
+    "fit_seconds": 0.022173522999764828,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-14 07:50:00",
+    "cal_start": "2020-02-14 08:00:00",
+    "cal_end": "2020-02-17 15:55:00",
+    "train_index_sha256": "01f11f08a2f7da50fff7167e2d6659d57f244ab07958fb18e0c16d239ebb120b",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "pca",
+          "PCA(n_components=0.95, svd_solver='full')"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "pca": "PCA(n_components=0.95, svd_solver='full')",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "pca__copy": true,
+      "pca__iterated_power": "auto",
+      "pca__n_components": 0.95,
+      "pca__n_oversamples": 10,
+      "pca__power_iteration_normalizer": "auto",
+      "pca__random_state": null,
+      "pca__svd_solver": "full",
+      "pca__tol": 0.0,
+      "pca__whiten": false,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 40.372097602285606
+  },
+  {
+    "experiment_id": "E018",
+    "model": "IsolationForest",
+    "seed": 42,
+    "train_n": 3219,
+    "cal_n": 906,
+    "n_input_features": 25,
+    "fit_seconds": 0.21242109900003925,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-14 07:50:00",
+    "cal_start": "2020-02-14 08:00:00",
+    "cal_end": "2020-02-17 15:55:00",
+    "train_index_sha256": "01f11f08a2f7da50fff7167e2d6659d57f244ab07958fb18e0c16d239ebb120b",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "IsolationForest(max_samples=256, n_estimators=200, n_jobs=2, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__bootstrap": false,
+      "model__contamination": "auto",
+      "model__max_features": 1.0,
+      "model__max_samples": 256,
+      "model__n_estimators": 200,
+      "model__n_jobs": 2,
+      "model__random_state": 42,
+      "model__verbose": 0,
+      "model__warm_start": false
+    },
+    "threshold": 0.6617515289946815
+  },
+  {
+    "experiment_id": "E019",
+    "model": "KMeans",
+    "seed": 42,
+    "train_n": 4982,
+    "cal_n": 2093,
+    "n_input_features": 22,
+    "fit_seconds": 0.028833551999923657,
+    "train_start": "2020-02-01 00:05:00",
+    "train_end": "2020-02-21 00:00:00",
+    "cal_start": "2020-02-21 00:10:00",
+    "cal_end": "2020-02-28 23:55:00",
+    "train_index_sha256": "9c0951d05562fd573a985bf2a27585b5609b9228f9fb33f848b3fb00fd0f9b4f",
+    "parameters": {
+      "memory": null,
+      "steps": [
+        [
+          "imputer",
+          "SimpleImputer(keep_empty_features=True, strategy='median')"
+        ],
+        [
+          "constant_filter",
+          "VarianceThreshold()"
+        ],
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "KMeans(n_clusters=3, n_init=10, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "imputer": "SimpleImputer(keep_empty_features=True, strategy='median')",
+      "constant_filter": "VarianceThreshold()",
+      "scaler": "StandardScaler()",
+      "model": "KMeans(n_clusters=3, n_init=10, random_state=42)",
+      "imputer__add_indicator": false,
+      "imputer__copy": true,
+      "imputer__fill_value": null,
+      "imputer__keep_empty_features": true,
+      "imputer__missing_values": NaN,
+      "imputer__strategy": "median",
+      "constant_filter__threshold": 0.0,
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__algorithm": "lloyd",
+      "model__copy_x": true,
+      "model__init": "k-means++",
+      "model__max_iter": 300,
+      "model__n_clusters": 3,
+      "model__n_init": 10,
+      "model__random_state": 42,
+      "model__tol": 0.0001,
+      "model__verbose": 0
+    },
+    "threshold": 40.0754641474528
+  }
+]

@@ -1,0 +1,6 @@
+,Temuan,Bukti,Implikasi / rencana,Interpretasi
+0,Missing/duplikasi,Missing sensor=0; timestamp ganda=0,Imputer median tetap berada di pipeline; tidak menambal jeda pencatatan lintas waktu.,Tidak ada nilai kosong tidak berarti tidak ada waktu perekaman yang hilang.
+1,Skala dan tipe sensor,7 analog dengan satuan berbeda; 8 sinyal biner,Statistik analog dan duty digital; StandardScaler dipelajari pada train.,Satuan fisik berbeda dapat mendominasi jarak bila tidak diskalakan.
+2,Korelasi tekanan,Korelasi TP3-Reservoirs pada train=0.999991,Bentuk fitur selisih tekanan; uji PCA sebagai pembanding terkontrol.,Dua tekanan merekam informasi yang sangat serupa pada periode referensi.
+3,Nilai ekstrem,"IQR menandai 31,624 nilai analog pada train",Tidak menghapus/capping otomatis: nilai ekstrem dapat menjadi sinyal anomali atau mode operasi normal.,Batas IQR mengasumsikan sebaran sederhana; mode operasi dapat ikut ditandai.
+4,Jeda waktu,"Median interval=10 detik; jeda maksimum file=172,918 detik","Agregasi lima menit, audit kelengkapan, dan reset persistensi saat terdapat jeda.",Data adalah time series tidak sepenuhnya teratur; keputusan harus menjaga urutan waktu.

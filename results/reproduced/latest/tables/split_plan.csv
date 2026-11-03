@@ -1,0 +1,5 @@
+,Bagian,Awal jendela,Batas akhir,Peran
+0,Train,2020-02-01 00:00:00,2020-02-21 00:00:00,"Fit imputer, seleksi konstan, scaler, dan model"
+1,Calibration,2020-02-21 00:05:00,2020-03-01 00:00:00,Ambang P99; tidak melatih ulang model
+2,Validation,2020-03-01 00:05:00,2020-06-01 00:00:00,Perbandingan kandidat dan analisis kesalahan
+3,Test,2020-06-01 00:05:00,2020-09-01 04:00:00,"Pengujian ulang benchmark, bukan hold-out baru"

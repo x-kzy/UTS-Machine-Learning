@@ -1,0 +1,5 @@
+,Tahap,Jumlah unit,Jenis unit,Dimensi representasi
+0,Data sensor awal,1516948,sampel waktu,15
+1,Fitur jendela siap eksperimen,50276,jendela terpakai,25
+2,Filter konstan + StandardScaler,4982,jendela train,22
+3,Kandidat PCA,4982,jendela train,7

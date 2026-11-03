@@ -1,0 +1,6 @@
+split,total_windows,usable_windows,reported_windows_total,dropped_quality,reported_windows_usable,monitored_days_equivalent
+calibration,2591,2093,0,498,0,7.267361111111111
+excluded_embargo,3,1,0,2,0,0.003472222222222222
+test,26543,21915,629,4628,625,76.09375
+train,5760,4982,0,778,0,17.29861111111111
+validation,26495,21286,366,5209,364,73.90972222222223

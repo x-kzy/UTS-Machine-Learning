@@ -1,0 +1,10 @@
+bulan,model,reported_windows,AP_proxy,alarm_rate,F1_proxy
+2020-03,KMeans,0,,0.0692,0.0
+2020-04,KMeans,286,0.9248,0.1348,0.4826
+2020-05,KMeans,78,0.1007,0.1401,0.1438
+2020-03,PCA_KMeans,0,,0.0711,0.0
+2020-04,PCA_KMeans,286,0.9303,0.1352,0.4814
+2020-05,PCA_KMeans,78,0.0976,0.1403,0.1454
+2020-03,IsolationForest,0,,0.0666,0.0
+2020-04,IsolationForest,286,0.3124,0.0685,0.7605
+2020-05,IsolationForest,78,0.0725,0.0684,0.2735

@@ -1,0 +1,5 @@
+,Aspek,Metadata sumber,Bukti CSV/keputusan,Implikasi
+0,Jumlah observasi,15.169.480 pada PDF deskripsi; 1.516.948 pada laman UCI,"1,516,948 baris setelah audit",Gunakan ukuran CSV aktual; tidak mengklaim membaca 15 juta baris
+1,Resolusi,"PDF/logging asal 1 Hz; UCI atribut menyebut 0,1 Hz",10 detik; train 10 detik,Kelengkapan jendela memakai cadence train; tidak menganggap log asli 1 Hz
+2,Rentang waktu,Februari-Agustus 2020 pada narasi sumber,2020-02-01 00:00:00 sampai 2020-09-01 03:59:50,"Laporkan rentang yang benar-benar terbaca, termasuk ujung September"
+3,ID laporan,Nomor #1 ditulis dua kali; catatan maintenance F02 tidak konsisten,F01-F04 adalah ID internal,"Pertahankan waktu kejadian, jangan menebak koreksi tanggal maintenance"

@@ -1,0 +1,3 @@
+Interval,Awal laporan,Akhir laporan,Terdeteksi saat laporan,Alarm pertama dalam laporan,Jeda dari awal laporan (menit)
+F03,2020-06-05 10:00:00,2020-06-07 14:30:00,True,2020-06-05 10:05:00,5.0
+F04,2020-07-15 14:30:00,2020-07-15 19:00:00,True,2020-07-15 14:35:00,5.0

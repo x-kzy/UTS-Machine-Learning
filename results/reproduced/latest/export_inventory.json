@@ -1,0 +1,604 @@
+[
+  {
+    "name": "schema_table",
+    "rows": 15,
+    "columns": [
+      "kolom",
+      "dtype",
+      "jenis",
+      "missing_setelah_audit",
+      "n_unique"
+    ]
+  },
+  {
+    "name": "source_discrepancies",
+    "rows": 4,
+    "columns": [
+      "Aspek",
+      "Metadata sumber",
+      "Bukti CSV/keputusan",
+      "Implikasi"
+    ]
+  },
+  {
+    "name": "sensor_dictionary",
+    "rows": 15,
+    "columns": [
+      "Variabel",
+      "Jenis",
+      "Satuan",
+      "Makna"
+    ]
+  },
+  {
+    "name": "FAILURES",
+    "rows": 4,
+    "columns": [
+      "event_id",
+      "nomor_pada_sumber",
+      "start",
+      "end",
+      "jenis"
+    ]
+  },
+  {
+    "name": "split_plan",
+    "rows": 4,
+    "columns": [
+      "Bagian",
+      "Awal jendela",
+      "Batas akhir",
+      "Peran"
+    ]
+  },
+  {
+    "name": "evaluation_protocol",
+    "rows": 5,
+    "columns": [
+      "Tahap",
+      "Data",
+      "Peran"
+    ]
+  },
+  {
+    "name": "train_summary",
+    "rows": 7,
+    "columns": [
+      "count",
+      "mean",
+      "std",
+      "min",
+      "25%",
+      "50%",
+      "75%",
+      "max",
+      "IQR"
+    ]
+  },
+  {
+    "name": "digital_frequency",
+    "rows": 8,
+    "columns": [
+      "nilai_0",
+      "nilai_1"
+    ]
+  },
+  {
+    "name": "train_corr",
+    "rows": 7,
+    "columns": [
+      "TP2",
+      "TP3",
+      "H1",
+      "DV_pressure",
+      "Reservoirs",
+      "Oil_temperature",
+      "Motor_current"
+    ]
+  },
+  {
+    "name": "iqr_table",
+    "rows": 7,
+    "columns": [
+      "IQR",
+      "indikasi_IQR",
+      "proporsi_indikasi"
+    ]
+  },
+  {
+    "name": "findings",
+    "rows": 5,
+    "columns": [
+      "Temuan",
+      "Bukti",
+      "Implikasi / rencana",
+      "Interpretasi"
+    ]
+  },
+  {
+    "name": "preprocessing_plan",
+    "rows": 7,
+    "columns": [
+      "Masalah",
+      "Penanganan",
+      "Alasan"
+    ]
+  },
+  {
+    "name": "window_summary",
+    "rows": 5,
+    "columns": [
+      "total_windows",
+      "usable_windows",
+      "reported_windows_total",
+      "dropped_quality",
+      "reported_windows_usable",
+      "monitored_days_equivalent"
+    ]
+  },
+  {
+    "name": "quality_reasons",
+    "rows": 5,
+    "columns": [
+      "split",
+      "insufficient_samples",
+      "large_internal_gap",
+      "large_left_gap",
+      "large_right_gap",
+      "excess_sensor_missing",
+      "unfinished_window"
+    ]
+  },
+  {
+    "name": "feature_definitions",
+    "rows": 5,
+    "columns": [
+      "Fitur",
+      "Definisi",
+      "Alasan / dampak yang diharapkan"
+    ]
+  },
+  {
+    "name": "constant_feature_audit",
+    "rows": 3,
+    "columns": [
+      "feature",
+      "train_unique",
+      "validation_unique",
+      "validation_changed_from_train"
+    ]
+  },
+  {
+    "name": "k_scan",
+    "rows": 5,
+    "columns": [
+      "K",
+      "inertia_per_window",
+      "silhouette",
+      "davies_bouldin",
+      "calinski_harabasz"
+    ]
+  },
+  {
+    "name": "profile",
+    "rows": 3,
+    "columns": [
+      "n_windows",
+      "proporsi",
+      "TP3__mean",
+      "Motor_current__mean",
+      "Oil_temperature__mean",
+      "pressure_gap_mean",
+      "motor_load_fraction"
+    ]
+  },
+  {
+    "name": "cluster_interpretation",
+    "rows": 3,
+    "columns": [
+      "n_windows",
+      "proporsi",
+      "TP3__mean",
+      "Motor_current__mean",
+      "Oil_temperature__mean",
+      "pressure_gap_mean",
+      "motor_load_fraction",
+      "interpretasi_relatif"
+    ]
+  },
+  {
+    "name": "pca_variance",
+    "rows": 7,
+    "columns": [
+      "komponen",
+      "explained_variance_ratio",
+      "kumulatif"
+    ]
+  },
+  {
+    "name": "model_settings",
+    "rows": 3,
+    "columns": [
+      "model",
+      "fit_windows",
+      "fitur_awal",
+      "setelah_filter",
+      "dimensi_model",
+      "threshold_P99",
+      "fit_seconds"
+    ]
+  },
+  {
+    "name": "event_coverage",
+    "rows": 4,
+    "columns": [
+      "event_id",
+      "raw_rows_in_report",
+      "expected_overlap_windows",
+      "usable_overlap_windows",
+      "invalid_overlap_windows",
+      "usable_overlap_fraction",
+      "split"
+    ]
+  },
+  {
+    "name": "cv_results",
+    "rows": 15,
+    "columns": [
+      "fold",
+      "model",
+      "fit_start",
+      "calibration_start",
+      "median_relative_score",
+      "silhouette_validation",
+      "n_train",
+      "n_calibration",
+      "n_validation",
+      "train_end",
+      "calibration_end",
+      "validation_start",
+      "validation_end",
+      "exceed_rate",
+      "alarm_rate",
+      "fit_seconds",
+      "threshold"
+    ]
+  },
+  {
+    "name": "cv_summary",
+    "rows": 3,
+    "columns": [
+      "mean_exceed_rate",
+      "std_exceed_rate",
+      "mean_alarm_rate",
+      "std_alarm_rate",
+      "mean_fit_seconds",
+      "mean_relative_score",
+      "std_relative_score",
+      "mean_silhouette",
+      "std_silhouette"
+    ]
+  },
+  {
+    "name": "validation_metrics",
+    "rows": 3,
+    "columns": [
+      "model",
+      "n_windows",
+      "reported_windows",
+      "report_prevalence",
+      "AP_proxy",
+      "ROC_AUC_proxy",
+      "precision_proxy",
+      "recall_proxy",
+      "F1_proxy",
+      "accuracy_proxy",
+      "TN_proxy",
+      "FP_proxy",
+      "FN_proxy",
+      "TP_proxy",
+      "alarm_rate",
+      "outside_report_alarm_rate",
+      "reported_events_in_scope",
+      "reported_events_observed",
+      "unobserved_events",
+      "reported_events_detected",
+      "event_recall_report",
+      "median_detection_delay_min",
+      "n_alarm_segments",
+      "outside_report_episodes",
+      "monitored_days_equivalent",
+      "outside_report_days_equivalent",
+      "outside_report_episodes_per_monitored_day",
+      "outside_report_alarm_hours",
+      "role",
+      "validation_method",
+      "threshold_source",
+      "persistence_windows"
+    ]
+  },
+  {
+    "name": "development_blocks",
+    "rows": 9,
+    "columns": [
+      "model",
+      "n_windows",
+      "reported_windows",
+      "report_prevalence",
+      "AP_proxy",
+      "ROC_AUC_proxy",
+      "precision_proxy",
+      "recall_proxy",
+      "F1_proxy",
+      "accuracy_proxy",
+      "TN_proxy",
+      "FP_proxy",
+      "FN_proxy",
+      "TP_proxy",
+      "alarm_rate",
+      "outside_report_alarm_rate",
+      "reported_events_in_scope",
+      "reported_events_observed",
+      "unobserved_events",
+      "reported_events_detected",
+      "event_recall_report",
+      "median_detection_delay_min",
+      "n_alarm_segments",
+      "outside_report_episodes",
+      "monitored_days_equivalent",
+      "outside_report_days_equivalent",
+      "outside_report_episodes_per_monitored_day",
+      "outside_report_alarm_hours",
+      "bulan"
+    ]
+  },
+  {
+    "name": "validation_events",
+    "rows": 6,
+    "columns": [
+      "event_id",
+      "report_start",
+      "report_end",
+      "expected_overlap_windows",
+      "usable_overlap_windows",
+      "observed_report_windows",
+      "decision_windows_in_report",
+      "post_report_label_windows",
+      "coverage_fraction",
+      "status_observation",
+      "detected_during_report",
+      "first_alarm",
+      "delay_from_report_start_min",
+      "model"
+    ]
+  },
+  {
+    "name": "model_tradeoffs",
+    "rows": 3,
+    "columns": [
+      "model",
+      "AP_proxy",
+      "F1_proxy",
+      "event_recall_report",
+      "outside_report_episodes_per_monitored_day",
+      "fit_seconds"
+    ]
+  },
+  {
+    "name": "feature_ablation",
+    "rows": 2,
+    "columns": [
+      "model",
+      "n_windows",
+      "reported_windows",
+      "report_prevalence",
+      "AP_proxy",
+      "ROC_AUC_proxy",
+      "precision_proxy",
+      "recall_proxy",
+      "F1_proxy",
+      "accuracy_proxy",
+      "TN_proxy",
+      "FP_proxy",
+      "FN_proxy",
+      "TP_proxy",
+      "alarm_rate",
+      "outside_report_alarm_rate",
+      "reported_events_in_scope",
+      "reported_events_observed",
+      "unobserved_events",
+      "reported_events_detected",
+      "event_recall_report",
+      "median_detection_delay_min",
+      "n_alarm_segments",
+      "outside_report_episodes",
+      "monitored_days_equivalent",
+      "outside_report_days_equivalent",
+      "outside_report_episodes_per_monitored_day",
+      "outside_report_alarm_hours",
+      "n_features_input",
+      "split",
+      "K",
+      "quantile",
+      "persistence"
+    ]
+  },
+  {
+    "name": "sensitivity",
+    "rows": 9,
+    "columns": [
+      "model",
+      "n_windows",
+      "reported_windows",
+      "report_prevalence",
+      "AP_proxy",
+      "ROC_AUC_proxy",
+      "precision_proxy",
+      "recall_proxy",
+      "F1_proxy",
+      "accuracy_proxy",
+      "TN_proxy",
+      "FP_proxy",
+      "FN_proxy",
+      "TP_proxy",
+      "alarm_rate",
+      "outside_report_alarm_rate",
+      "reported_events_in_scope",
+      "reported_events_observed",
+      "unobserved_events",
+      "reported_events_detected",
+      "event_recall_report",
+      "median_detection_delay_min",
+      "n_alarm_segments",
+      "outside_report_episodes",
+      "monitored_days_equivalent",
+      "outside_report_days_equivalent",
+      "outside_report_episodes_per_monitored_day",
+      "outside_report_alarm_hours",
+      "quantile",
+      "persistence",
+      "threshold",
+      "is_primary_configuration"
+    ]
+  },
+  {
+    "name": "test_metrics",
+    "rows": 4,
+    "columns": [
+      "model",
+      "n_windows",
+      "reported_windows",
+      "report_prevalence",
+      "AP_proxy",
+      "ROC_AUC_proxy",
+      "precision_proxy",
+      "recall_proxy",
+      "F1_proxy",
+      "accuracy_proxy",
+      "TN_proxy",
+      "FP_proxy",
+      "FN_proxy",
+      "TP_proxy",
+      "alarm_rate",
+      "outside_report_alarm_rate",
+      "reported_events_in_scope",
+      "reported_events_observed",
+      "unobserved_events",
+      "reported_events_detected",
+      "event_recall_report",
+      "median_detection_delay_min",
+      "n_alarm_segments",
+      "outside_report_episodes",
+      "monitored_days_equivalent",
+      "outside_report_days_equivalent",
+      "outside_report_episodes_per_monitored_day",
+      "outside_report_alarm_hours",
+      "role",
+      "validation_method",
+      "threshold_source",
+      "persistence_windows"
+    ]
+  },
+  {
+    "name": "test_events",
+    "rows": 6,
+    "columns": [
+      "model",
+      "event_id",
+      "report_start",
+      "report_end",
+      "expected_overlap_windows",
+      "usable_overlap_windows",
+      "observed_report_windows",
+      "decision_windows_in_report",
+      "post_report_label_windows",
+      "coverage_fraction",
+      "status_observation",
+      "detected_during_report",
+      "first_alarm",
+      "delay_from_report_start_min"
+    ]
+  },
+  {
+    "name": "error_slices",
+    "rows": 3,
+    "columns": [
+      "n_windows",
+      "reported_windows",
+      "alarm_windows",
+      "missed_report_windows",
+      "alarms_outside_report",
+      "miss_rate_proxy",
+      "alarm_rate"
+    ]
+  },
+  {
+    "name": "validation_alarm_segments",
+    "rows": 53,
+    "columns": [
+      "start_alarm",
+      "last_alarm",
+      "n_windows",
+      "alarm_window_minutes",
+      "decision_span_minutes",
+      "overlaps_report",
+      "matching_reports"
+    ]
+  },
+  {
+    "name": "deviation_profile",
+    "rows": 22,
+    "columns": [
+      "fitur",
+      "mean_abs_z_on_alarm",
+      "mean_abs_z_all_validation"
+    ]
+  },
+  {
+    "name": "drift_diagnostics",
+    "rows": 12,
+    "columns": [
+      "feature",
+      "month",
+      "train_mean",
+      "validation_month_mean",
+      "standardized_mean_difference"
+    ]
+  },
+  {
+    "name": "integrity_checks",
+    "rows": 6,
+    "columns": [
+      "pemeriksaan",
+      "lulus"
+    ]
+  },
+  {
+    "name": "s13_progress",
+    "rows": 4,
+    "columns": [
+      "Tahap",
+      "Jumlah unit",
+      "Jenis unit",
+      "Dimensi representasi"
+    ]
+  },
+  {
+    "name": "s14_goals",
+    "rows": 5,
+    "columns": [
+      "Tujuan / batas penggunaan",
+      "Status",
+      "Bukti hasil"
+    ]
+  },
+  {
+    "name": "demo_prediction",
+    "rows": 12,
+    "columns": [
+      "score",
+      "exceed",
+      "alarm"
+    ]
+  }
+]

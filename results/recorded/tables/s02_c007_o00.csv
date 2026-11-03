@@ -1,0 +1,16 @@
+Variabel,Jenis,Satuan,Makna
+TP2,Analog,bar,Tekanan kompresor
+TP3,Analog,bar,Tekanan panel pneumatik
+H1,Analog,bar,Sinyal tekanan pada komponen separator
+DV_pressure,Analog,bar,Tekanan terkait pembuangan pada pengering udara
+Reservoirs,Analog,bar,Tekanan reservoir; dibandingkan dengan TP3
+Oil_temperature,Analog,°C,Suhu oli kompresor
+Motor_current,Analog,A,Arus motor; dokumentasi menyebut sekitar 0/4/7...
+COMP,Digital,0/1,Sinyal katup intake
+DV_eletric,Digital,0/1,Sinyal katup outlet; ejaan asli CSV
+Towers,Digital,0/1,Status tower pengering
+MPG,Digital,0/1,Sinyal pengaktifan kompresor
+LPS,Digital,0/1,Sinyal tekanan rendah
+Pressure_switch,Digital,0/1,Sinyal pressure switch
+Oil_level,Digital,0/1,Sinyal level oli
+Caudal_impulses,Digital,0/1,Sinyal impuls aliran udara

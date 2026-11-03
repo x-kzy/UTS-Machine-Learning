@@ -1,0 +1,4 @@
+,feature,train_unique,validation_unique,validation_changed_from_train
+0,Caudal_impulses__duty,1,14,True
+1,LPS__duty,1,35,True
+2,Oil_level__duty,1,21,True

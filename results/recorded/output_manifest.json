@@ -1,0 +1,1862 @@
+{
+  "notebook": "UTS_ML_B10_Kelompok5.ipynb",
+  "notebook_sha256": "368bc40d2e3e6e8afd97fa80ec3d9c0b73af21ebfe6f2615eaf3d6ab25e10603",
+  "source": "saved notebook outputs; no model training by this exporter",
+  "items": [
+    {
+      "section": 0,
+      "cell_index_zero_based": 2,
+      "output_index_zero_based": 0,
+      "execution_count": 6,
+      "mime_types": [
+        "image/png",
+        "text/plain"
+      ],
+      "image_size": [
+        2550,
+        2159
+      ],
+      "kind": "plot",
+      "path": "docs/images/s00_c002_o00.png",
+      "sha256": "cd58bebd6b3b921beb69f2861aa75caad7502762825da6f9589862067dea19e0"
+    },
+    {
+      "section": 1,
+      "cell_index_zero_based": 4,
+      "output_index_zero_based": 0,
+      "execution_count": 7,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s01_c004_o00.csv",
+      "rows": 8,
+      "columns": [
+        "Pustaka",
+        "Versi"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 1,
+      "cell_index_zero_based": 4,
+      "output_index_zero_based": 2,
+      "execution_count": 7,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 2,
+      "cell_index_zero_based": 6,
+      "output_index_zero_based": 0,
+      "execution_count": 8,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s02_c006_o00.csv",
+      "rows": 7,
+      "columns": [
+        "Atribut",
+        "Hasil"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 2,
+      "cell_index_zero_based": 6,
+      "output_index_zero_based": 1,
+      "execution_count": 8,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s02_c006_o01.csv",
+      "rows": 3,
+      "columns": [
+        "timestamp",
+        "TP2",
+        "TP3",
+        "H1",
+        "DV_pressure",
+        "Reservoirs",
+        "Oil_temperature",
+        "Motor_current",
+        "COMP",
+        "DV_eletric",
+        "Towers",
+        "MPG",
+        "LPS",
+        "Pressure_switch",
+        "Oil_level",
+        "Caudal_impulses"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 2,
+      "cell_index_zero_based": 6,
+      "output_index_zero_based": 2,
+      "execution_count": 8,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s02_c006_o02.csv",
+      "rows": 5,
+      "columns": [
+        "Interval (detik)",
+        "Jumlah"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 2,
+      "cell_index_zero_based": 6,
+      "output_index_zero_based": 3,
+      "execution_count": 8,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s02_c006_o03.csv",
+      "rows": 15,
+      "columns": [
+        "kolom",
+        "dtype",
+        "jenis",
+        "missing_setelah_audit",
+        "n_unique"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 2,
+      "cell_index_zero_based": 6,
+      "output_index_zero_based": 4,
+      "execution_count": 8,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s02_c006_o04.csv",
+      "rows": 4,
+      "columns": [
+        "Aspek",
+        "Metadata sumber",
+        "Bukti CSV/keputusan",
+        "Implikasi"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 2,
+      "cell_index_zero_based": 6,
+      "output_index_zero_based": 5,
+      "execution_count": 8,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 2,
+      "cell_index_zero_based": 7,
+      "output_index_zero_based": 0,
+      "execution_count": 9,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s02_c007_o00.csv",
+      "rows": 15,
+      "columns": [
+        "Variabel",
+        "Jenis",
+        "Satuan",
+        "Makna"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 3,
+      "cell_index_zero_based": 9,
+      "output_index_zero_based": 0,
+      "execution_count": 10,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s03_c009_o00.csv",
+      "rows": 4,
+      "columns": [
+        "event_id",
+        "nomor_pada_sumber",
+        "start",
+        "end",
+        "jenis"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 3,
+      "cell_index_zero_based": 9,
+      "output_index_zero_based": 1,
+      "execution_count": 10,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 3,
+      "cell_index_zero_based": 9,
+      "output_index_zero_based": 2,
+      "execution_count": 10,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s03_c009_o02.csv",
+      "rows": 4,
+      "columns": [
+        "Bagian",
+        "Awal jendela",
+        "Batas akhir",
+        "Peran"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 3,
+      "cell_index_zero_based": 9,
+      "output_index_zero_based": 3,
+      "execution_count": 10,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1302,
+        334
+      ],
+      "kind": "plot",
+      "path": "docs/images/s03_c009_o03.png",
+      "sha256": "db3ece8b70cd3eae395c35e36132854a61caf571edc4fbda0093dcdebee13733"
+    },
+    {
+      "section": 3,
+      "cell_index_zero_based": 9,
+      "output_index_zero_based": 5,
+      "execution_count": 10,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s03_c009_o05.csv",
+      "rows": 5,
+      "columns": [
+        "Tahap",
+        "Data",
+        "Peran"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 12,
+      "output_index_zero_based": 0,
+      "execution_count": 11,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s04_c012_o00.csv",
+      "rows": 7,
+      "columns": [
+        "index",
+        "count",
+        "mean",
+        "std",
+        "min",
+        "25%",
+        "50%",
+        "75%",
+        "max",
+        "IQR"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 12,
+      "output_index_zero_based": 1,
+      "execution_count": 11,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s04_c012_o01.csv",
+      "rows": 8,
+      "columns": [
+        "index",
+        "nilai_0",
+        "nilai_1"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 12,
+      "output_index_zero_based": 2,
+      "execution_count": 11,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1522,
+        648
+      ],
+      "kind": "plot",
+      "path": "docs/images/s04_c012_o02.png",
+      "sha256": "83f86aa9406ee928a0de0d32f77ac1063609ebfc00e7b852bedb9bfeaecc072a"
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 12,
+      "output_index_zero_based": 3,
+      "execution_count": 11,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1412,
+        367
+      ],
+      "kind": "plot",
+      "path": "docs/images/s04_c012_o03.png",
+      "sha256": "721021d7f7e2d5c4b975c080a12838d799f824cb943add4232c0c9ee6c6a1be1"
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 12,
+      "output_index_zero_based": 4,
+      "execution_count": 11,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1302,
+        400
+      ],
+      "kind": "plot",
+      "path": "docs/images/s04_c012_o04.png",
+      "sha256": "efc6e0baa43b7cd10faa06b60916316e2a06e8a3afad6547be68f703ff61c3d9"
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 12,
+      "output_index_zero_based": 5,
+      "execution_count": 11,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        844,
+        587
+      ],
+      "kind": "plot",
+      "path": "docs/images/s04_c012_o05.png",
+      "sha256": "b7a54270ca8768363a22e76d455ce2438802af760770bd4441e53a848a0d9d21"
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 12,
+      "output_index_zero_based": 6,
+      "execution_count": 11,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1192,
+        334
+      ],
+      "kind": "plot",
+      "path": "docs/images/s04_c012_o06.png",
+      "sha256": "3a30a5fd378b4c2512684ea9e7f0ebbb9763c62805b4e0852772fd522d5a7010"
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 12,
+      "output_index_zero_based": 7,
+      "execution_count": 11,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 13,
+      "output_index_zero_based": 0,
+      "execution_count": 12,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s04_c013_o00.csv",
+      "rows": 7,
+      "columns": [
+        "index",
+        "IQR",
+        "indikasi_IQR",
+        "proporsi_indikasi"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 13,
+      "output_index_zero_based": 1,
+      "execution_count": 12,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s04_c013_o01.csv",
+      "rows": 5,
+      "columns": [
+        "Temuan",
+        "Bukti",
+        "Implikasi / rencana"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 13,
+      "output_index_zero_based": 2,
+      "execution_count": 12,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s04_c013_o02.csv",
+      "rows": 5,
+      "columns": [
+        "Temuan",
+        "Bukti",
+        "Interpretasi",
+        "Implikasi / rencana"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 4,
+      "cell_index_zero_based": 13,
+      "output_index_zero_based": 3,
+      "execution_count": 12,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s04_c013_o03.csv",
+      "rows": 7,
+      "columns": [
+        "Masalah",
+        "Penanganan",
+        "Alasan"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 5,
+      "cell_index_zero_based": 15,
+      "output_index_zero_based": 0,
+      "execution_count": 13,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s05_c015_o00.csv",
+      "rows": 5,
+      "columns": [
+        "split",
+        "total_windows",
+        "usable_windows",
+        "reported_windows_total",
+        "dropped_quality",
+        "reported_windows_usable",
+        "monitored_days_equivalent"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 5,
+      "cell_index_zero_based": 15,
+      "output_index_zero_based": 1,
+      "execution_count": 13,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s05_c015_o01.csv",
+      "rows": 5,
+      "columns": [
+        "split",
+        "insufficient_samples",
+        "large_internal_gap",
+        "large_left_gap",
+        "large_right_gap",
+        "excess_sensor_missing",
+        "unfinished_window"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 5,
+      "cell_index_zero_based": 15,
+      "output_index_zero_based": 2,
+      "execution_count": 13,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s05_c015_o02.csv",
+      "rows": 5,
+      "columns": [
+        "Fitur",
+        "Definisi",
+        "Alasan / dampak yang diharapkan"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 5,
+      "cell_index_zero_based": 15,
+      "output_index_zero_based": 3,
+      "execution_count": 13,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s05_c015_o03.csv",
+      "rows": 3,
+      "columns": [
+        "window_end",
+        "TP2__mean",
+        "TP2__std",
+        "TP3__mean",
+        "TP3__std",
+        "H1__mean",
+        "H1__std",
+        "DV_pressure__mean",
+        "DV_pressure__std",
+        "Reservoirs__mean",
+        "Reservoirs__std",
+        "Oil_temperature__mean",
+        "Oil_temperature__std",
+        "Motor_current__mean",
+        "Motor_current__std",
+        "COMP__duty",
+        "DV_eletric__duty",
+        "Towers__duty",
+        "MPG__duty",
+        "LPS__duty",
+        "Pressure_switch__duty",
+        "Oil_level__duty",
+        "Caudal_impulses__duty",
+        "pressure_gap_mean",
+        "motor_load_fraction",
+        "oil_temperature_range"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 5,
+      "cell_index_zero_based": 15,
+      "output_index_zero_based": 4,
+      "execution_count": 13,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 6,
+      "cell_index_zero_based": 18,
+      "output_index_zero_based": 0,
+      "execution_count": 14,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s06_c018_o00.csv",
+      "rows": 7,
+      "columns": [
+        "Parameter",
+        "Nilai"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 6,
+      "cell_index_zero_based": 18,
+      "output_index_zero_based": 2,
+      "execution_count": 14,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s06_c018_o02.csv",
+      "rows": 5,
+      "columns": [
+        "window_end",
+        "score",
+        "exceed",
+        "alarm"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 6,
+      "cell_index_zero_based": 18,
+      "output_index_zero_based": 3,
+      "execution_count": 14,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        972,
+        312
+      ],
+      "kind": "plot",
+      "path": "docs/images/s06_c018_o03.png",
+      "sha256": "48a7a100ce36d736c1649af5ab8dcd52c73d7b7f4ba408f36e0049fe09107ab2"
+    },
+    {
+      "section": 6,
+      "cell_index_zero_based": 18,
+      "output_index_zero_based": 4,
+      "execution_count": 14,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s06_c018_o04.csv",
+      "rows": 3,
+      "columns": [
+        "feature",
+        "train_unique",
+        "validation_unique",
+        "validation_changed_from_train"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 6,
+      "cell_index_zero_based": 18,
+      "output_index_zero_based": 5,
+      "execution_count": 14,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 7,
+      "cell_index_zero_based": 20,
+      "output_index_zero_based": 0,
+      "execution_count": 15,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s07_c020_o00.csv",
+      "rows": 5,
+      "columns": [
+        "K",
+        "inertia_per_window",
+        "silhouette",
+        "davies_bouldin",
+        "calinski_harabasz"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 7,
+      "cell_index_zero_based": 20,
+      "output_index_zero_based": 1,
+      "execution_count": 15,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1192,
+        367
+      ],
+      "kind": "plot",
+      "path": "docs/images/s07_c020_o01.png",
+      "sha256": "5c8c83bb3e3bd6e7e488d37700d1bfe421556e9d2d69c760364e224202d1849f"
+    },
+    {
+      "section": 7,
+      "cell_index_zero_based": 20,
+      "output_index_zero_based": 2,
+      "execution_count": 15,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s07_c020_o02.csv",
+      "rows": 3,
+      "columns": [
+        "cluster",
+        "n_windows",
+        "proporsi",
+        "TP3__mean",
+        "Motor_current__mean",
+        "Oil_temperature__mean",
+        "pressure_gap_mean",
+        "motor_load_fraction"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 7,
+      "cell_index_zero_based": 20,
+      "output_index_zero_based": 3,
+      "execution_count": 15,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s07_c020_o03.csv",
+      "rows": 3,
+      "columns": [
+        "cluster",
+        "n_windows",
+        "proporsi",
+        "TP3__mean",
+        "Motor_current__mean",
+        "Oil_temperature__mean",
+        "pressure_gap_mean",
+        "motor_load_fraction",
+        "interpretasi_relatif"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 7,
+      "cell_index_zero_based": 20,
+      "output_index_zero_based": 4,
+      "execution_count": 15,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 8,
+      "cell_index_zero_based": 22,
+      "output_index_zero_based": 0,
+      "execution_count": 16,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s08_c022_o00.csv",
+      "rows": 7,
+      "columns": [
+        "komponen",
+        "explained_variance_ratio",
+        "kumulatif"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 8,
+      "cell_index_zero_based": 22,
+      "output_index_zero_based": 1,
+      "execution_count": 16,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s08_c022_o01.csv",
+      "rows": 3,
+      "columns": [
+        "model",
+        "fit_windows",
+        "fitur_awal",
+        "setelah_filter",
+        "dimensi_model",
+        "threshold_P99",
+        "fit_seconds"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 8,
+      "cell_index_zero_based": 22,
+      "output_index_zero_based": 2,
+      "execution_count": 16,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1192,
+        367
+      ],
+      "kind": "plot",
+      "path": "docs/images/s08_c022_o02.png",
+      "sha256": "fca8e593925719d935f40d6245d4a5c3cdaabcc3810f07a83dcf0a655e5a6922"
+    },
+    {
+      "section": 8,
+      "cell_index_zero_based": 22,
+      "output_index_zero_based": 3,
+      "execution_count": 16,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 25,
+      "output_index_zero_based": 0,
+      "execution_count": 17,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c025_o00.csv",
+      "rows": 4,
+      "columns": [
+        "event_id",
+        "raw_rows_in_report",
+        "expected_overlap_windows",
+        "usable_overlap_windows",
+        "invalid_overlap_windows",
+        "usable_overlap_fraction",
+        "split"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 26,
+      "output_index_zero_based": 1,
+      "execution_count": 18,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c026_o01.csv",
+      "rows": 15,
+      "columns": [
+        "fold",
+        "model",
+        "n_train",
+        "n_calibration",
+        "n_validation",
+        "exceed_rate",
+        "alarm_rate",
+        "fit_seconds"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 26,
+      "output_index_zero_based": 2,
+      "execution_count": 18,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c026_o02.csv",
+      "rows": 3,
+      "columns": [
+        "model",
+        "mean_exceed_rate",
+        "std_exceed_rate",
+        "mean_alarm_rate",
+        "std_alarm_rate",
+        "mean_fit_seconds",
+        "mean_relative_score",
+        "std_relative_score",
+        "mean_silhouette",
+        "std_silhouette"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 26,
+      "output_index_zero_based": 3,
+      "execution_count": 18,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1286,
+        367
+      ],
+      "kind": "plot",
+      "path": "docs/images/s09_c026_o03.png",
+      "sha256": "3a2ffae6dfd64df7250103cca04883d81b097cdc061a6dd16c4aa001dcd503dc"
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 26,
+      "output_index_zero_based": 4,
+      "execution_count": 18,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 28,
+      "output_index_zero_based": 0,
+      "execution_count": 19,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c028_o00.csv",
+      "rows": 3,
+      "columns": [
+        "model",
+        "n_windows",
+        "reported_windows",
+        "report_prevalence",
+        "AP_proxy",
+        "ROC_AUC_proxy",
+        "precision_proxy",
+        "recall_proxy",
+        "F1_proxy",
+        "accuracy_proxy",
+        "TN_proxy",
+        "FP_proxy",
+        "FN_proxy",
+        "TP_proxy",
+        "alarm_rate",
+        "reported_events_observed",
+        "unobserved_events",
+        "reported_events_detected",
+        "event_recall_report",
+        "median_detection_delay_min",
+        "n_alarm_segments",
+        "outside_report_episodes",
+        "monitored_days_equivalent",
+        "outside_report_days_equivalent",
+        "outside_report_episodes_per_monitored_day",
+        "outside_report_alarm_hours",
+        "role",
+        "validation_method",
+        "threshold_source",
+        "persistence_windows"
+      ],
+      "display_excerpt": true
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 28,
+      "output_index_zero_based": 1,
+      "execution_count": 19,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c028_o01.csv",
+      "rows": 1,
+      "columns": [
+        "model",
+        "n_windows",
+        "reported_windows",
+        "report_prevalence",
+        "AP_proxy",
+        "ROC_AUC_proxy",
+        "precision_proxy",
+        "recall_proxy",
+        "F1_proxy",
+        "accuracy_proxy",
+        "TN_proxy",
+        "FP_proxy",
+        "FN_proxy",
+        "TP_proxy",
+        "alarm_rate",
+        "outside_report_alarm_rate",
+        "reported_events_in_scope",
+        "reported_events_observed",
+        "unobserved_events",
+        "reported_events_detected",
+        "event_recall_report",
+        "median_detection_delay_min",
+        "n_alarm_segments",
+        "outside_report_episodes",
+        "monitored_days_equivalent",
+        "outside_report_days_equivalent",
+        "outside_report_episodes_per_monitored_day",
+        "outside_report_alarm_hours"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 28,
+      "output_index_zero_based": 2,
+      "execution_count": 19,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c028_o02.csv",
+      "rows": 9,
+      "columns": [
+        "bulan",
+        "model",
+        "reported_windows",
+        "AP_proxy",
+        "alarm_rate",
+        "F1_proxy"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 28,
+      "output_index_zero_based": 3,
+      "execution_count": 19,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        752,
+        422
+      ],
+      "kind": "plot",
+      "path": "docs/images/s09_c028_o03.png",
+      "sha256": "ccf51424ef69ffcfc685d007027ff4250ab582c743c74d1e293595e516d0cbeb"
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 28,
+      "output_index_zero_based": 4,
+      "execution_count": 19,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c028_o04.csv",
+      "rows": 6,
+      "columns": [
+        "event_id",
+        "report_start",
+        "report_end",
+        "expected_overlap_windows",
+        "usable_overlap_windows",
+        "observed_report_windows",
+        "decision_windows_in_report",
+        "post_report_label_windows",
+        "coverage_fraction",
+        "status_observation",
+        "detected_during_report",
+        "first_alarm",
+        "delay_from_report_start_min",
+        "model"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 28,
+      "output_index_zero_based": 5,
+      "execution_count": 19,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c028_o05.csv",
+      "rows": 3,
+      "columns": [
+        "model",
+        "AP_proxy",
+        "F1_proxy",
+        "event_recall_report",
+        "outside_report_episodes_per_monitored_day",
+        "fit_seconds"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 28,
+      "output_index_zero_based": 6,
+      "execution_count": 19,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 30,
+      "output_index_zero_based": 0,
+      "execution_count": 20,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c030_o00.csv",
+      "rows": 2,
+      "columns": [
+        "model",
+        "n_features_input",
+        "AP_proxy",
+        "precision_proxy",
+        "recall_proxy",
+        "F1_proxy",
+        "outside_report_episodes_per_monitored_day"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 30,
+      "output_index_zero_based": 1,
+      "execution_count": 20,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 30,
+      "output_index_zero_based": 2,
+      "execution_count": 20,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s09_c030_o02.csv",
+      "rows": 9,
+      "columns": [
+        "quantile",
+        "persistence",
+        "precision_proxy",
+        "recall_proxy",
+        "F1_proxy",
+        "event_recall_report",
+        "outside_report_episodes_per_monitored_day",
+        "is_primary_configuration"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 9,
+      "cell_index_zero_based": 30,
+      "output_index_zero_based": 3,
+      "execution_count": 20,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1308,
+        400
+      ],
+      "kind": "plot",
+      "path": "docs/images/s09_c030_o03.png",
+      "sha256": "96f97c08e7896dd562ee2df84c376de7822c6c7095d51a39cb17eb2baab63468"
+    },
+    {
+      "section": 10,
+      "cell_index_zero_based": 32,
+      "output_index_zero_based": 0,
+      "execution_count": 21,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s10_c032_o00.csv",
+      "rows": 4,
+      "columns": [
+        "model",
+        "n_windows",
+        "reported_windows",
+        "report_prevalence",
+        "AP_proxy",
+        "ROC_AUC_proxy",
+        "precision_proxy",
+        "recall_proxy",
+        "F1_proxy",
+        "accuracy_proxy",
+        "TN_proxy",
+        "FP_proxy",
+        "FN_proxy",
+        "TP_proxy",
+        "alarm_rate",
+        "reported_events_observed",
+        "unobserved_events",
+        "reported_events_detected",
+        "event_recall_report",
+        "median_detection_delay_min",
+        "n_alarm_segments",
+        "outside_report_episodes",
+        "monitored_days_equivalent",
+        "outside_report_days_equivalent",
+        "outside_report_episodes_per_monitored_day",
+        "outside_report_alarm_hours",
+        "role",
+        "validation_method",
+        "threshold_source",
+        "persistence_windows"
+      ],
+      "display_excerpt": true
+    },
+    {
+      "section": 10,
+      "cell_index_zero_based": 32,
+      "output_index_zero_based": 1,
+      "execution_count": 21,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s10_c032_o01.csv",
+      "rows": 6,
+      "columns": [
+        "model",
+        "event_id",
+        "report_start",
+        "report_end",
+        "expected_overlap_windows",
+        "usable_overlap_windows",
+        "observed_report_windows",
+        "decision_windows_in_report",
+        "post_report_label_windows",
+        "coverage_fraction",
+        "status_observation",
+        "detected_during_report",
+        "first_alarm",
+        "delay_from_report_start_min"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 10,
+      "cell_index_zero_based": 32,
+      "output_index_zero_based": 2,
+      "execution_count": 21,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        642,
+        422
+      ],
+      "kind": "plot",
+      "path": "docs/images/s10_c032_o02.png",
+      "sha256": "d8a1742f8386dad978085235bfa378311f702412db4c0cadde24fdff22168092"
+    },
+    {
+      "section": 10,
+      "cell_index_zero_based": 32,
+      "output_index_zero_based": 3,
+      "execution_count": 21,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1412,
+        807
+      ],
+      "kind": "plot",
+      "path": "docs/images/s10_c032_o03.png",
+      "sha256": "68390d81da4a5ed193a7379ad64de9e4cff8700772ead232d1329f597ed408e0"
+    },
+    {
+      "section": 10,
+      "cell_index_zero_based": 32,
+      "output_index_zero_based": 4,
+      "execution_count": 21,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 11,
+      "cell_index_zero_based": 34,
+      "output_index_zero_based": 0,
+      "execution_count": 22,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s11_c034_o00.csv",
+      "rows": 3,
+      "columns": [
+        "kondisi_beban",
+        "n_windows",
+        "reported_windows",
+        "alarm_windows",
+        "missed_report_windows",
+        "alarms_outside_report",
+        "miss_rate_proxy",
+        "alarm_rate"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 11,
+      "cell_index_zero_based": 34,
+      "output_index_zero_based": 1,
+      "execution_count": 22,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s11_c034_o01.csv",
+      "rows": 2,
+      "columns": [
+        "event_id",
+        "report_start",
+        "report_end",
+        "expected_overlap_windows",
+        "usable_overlap_windows",
+        "observed_report_windows",
+        "decision_windows_in_report",
+        "post_report_label_windows",
+        "coverage_fraction",
+        "status_observation",
+        "detected_during_report",
+        "first_alarm",
+        "delay_from_report_start_min"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 11,
+      "cell_index_zero_based": 34,
+      "output_index_zero_based": 2,
+      "execution_count": 22,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s11_c034_o02.csv",
+      "rows": 10,
+      "columns": [
+        "start_alarm",
+        "last_alarm",
+        "n_windows",
+        "alarm_window_minutes",
+        "decision_span_minutes",
+        "overlaps_report",
+        "matching_reports"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 11,
+      "cell_index_zero_based": 34,
+      "output_index_zero_based": 3,
+      "execution_count": 22,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s11_c034_o03.csv",
+      "rows": 8,
+      "columns": [
+        "window_end",
+        "score",
+        "exceed",
+        "alarm",
+        "y_report",
+        "event_number",
+        "FN_proxy",
+        "outside_report_alarm",
+        "kondisi_beban",
+        "TP3__mean",
+        "Oil_temperature__mean",
+        "Motor_current__mean",
+        "pressure_gap_mean"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 11,
+      "cell_index_zero_based": 34,
+      "output_index_zero_based": 4,
+      "execution_count": 22,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s11_c034_o04.csv",
+      "rows": 10,
+      "columns": [
+        "index",
+        "fitur",
+        "mean_abs_z_on_alarm",
+        "mean_abs_z_all_validation"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 11,
+      "cell_index_zero_based": 34,
+      "output_index_zero_based": 5,
+      "execution_count": 22,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s11_c034_o05.csv",
+      "rows": 12,
+      "columns": [
+        "feature",
+        "month",
+        "train_mean",
+        "validation_month_mean",
+        "standardized_mean_difference"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 11,
+      "cell_index_zero_based": 34,
+      "output_index_zero_based": 6,
+      "execution_count": 22,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 12,
+      "cell_index_zero_based": 36,
+      "output_index_zero_based": 0,
+      "execution_count": 23,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s12_c036_o00.csv",
+      "rows": 12,
+      "columns": [
+        "window_end",
+        "score",
+        "exceed",
+        "alarm"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 12,
+      "cell_index_zero_based": 36,
+      "output_index_zero_based": 1,
+      "execution_count": 23,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s12_c036_o01.csv",
+      "rows": 6,
+      "columns": [
+        "pemeriksaan",
+        "lulus"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 12,
+      "cell_index_zero_based": 36,
+      "output_index_zero_based": 2,
+      "execution_count": 23,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 13,
+      "cell_index_zero_based": 38,
+      "output_index_zero_based": 0,
+      "execution_count": 24,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s13_c038_o00.csv",
+      "rows": 4,
+      "columns": [
+        "Tahap",
+        "Jumlah unit",
+        "Jenis unit",
+        "Dimensi representasi"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 13,
+      "cell_index_zero_based": 38,
+      "output_index_zero_based": 1,
+      "execution_count": 24,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1522,
+        972
+      ],
+      "kind": "plot",
+      "path": "docs/images/s13_c038_o01.png",
+      "sha256": "3a622971f45b017042dd19d4d96345aca58c7733a8d0462fd17ec511fd803c45"
+    },
+    {
+      "section": 13,
+      "cell_index_zero_based": 38,
+      "output_index_zero_based": 2,
+      "execution_count": 24,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 14,
+      "cell_index_zero_based": 40,
+      "output_index_zero_based": 0,
+      "execution_count": 25,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s14_c040_o00.csv",
+      "rows": 4,
+      "columns": [
+        "model",
+        "AP validasi",
+        "AP uji",
+        "Precision uji",
+        "Recall uji",
+        "F1 uji",
+        "Alarm (%)",
+        "Interval terdeteksi",
+        "Pilihan validasi"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 14,
+      "cell_index_zero_based": 40,
+      "output_index_zero_based": 1,
+      "execution_count": 25,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1522,
+        510
+      ],
+      "kind": "plot",
+      "path": "docs/images/s14_c040_o01.png",
+      "sha256": "64803efcbf3a03e6f1b4d582b383de3892d8f0646f8b138aec4399ef9c71be57"
+    },
+    {
+      "section": 14,
+      "cell_index_zero_based": 40,
+      "output_index_zero_based": 2,
+      "execution_count": 25,
+      "mime_types": [
+        "text/plain",
+        "image/png"
+      ],
+      "image_size": [
+        1412,
+        686
+      ],
+      "kind": "plot",
+      "path": "docs/images/s14_c040_o02.png",
+      "sha256": "ce08c6e5a5f9b25863b500680e2bf9bc1f7769099e88d2c2ae10bc6368cdc261"
+    },
+    {
+      "section": 14,
+      "cell_index_zero_based": 40,
+      "output_index_zero_based": 3,
+      "execution_count": 25,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s14_c040_o03.csv",
+      "rows": 2,
+      "columns": [
+        "Interval",
+        "Awal laporan",
+        "Akhir laporan",
+        "Terdeteksi saat laporan",
+        "Alarm pertama dalam laporan",
+        "Jeda dari awal laporan (menit)"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 14,
+      "cell_index_zero_based": 40,
+      "output_index_zero_based": 4,
+      "execution_count": 25,
+      "mime_types": [
+        "text/plain",
+        "text/html",
+        "application/vnd.google.colaboratory.intrinsic+json"
+      ],
+      "kind": "table",
+      "path": "results/recorded/tables/s14_c040_o04.csv",
+      "rows": 5,
+      "columns": [
+        "Tujuan / batas penggunaan",
+        "Status",
+        "Bukti hasil"
+      ],
+      "display_excerpt": false
+    },
+    {
+      "section": 14,
+      "cell_index_zero_based": 40,
+      "output_index_zero_based": 5,
+      "execution_count": 25,
+      "mime_types": [
+        "text/plain",
+        "text/markdown"
+      ],
+      "kind": "explanation"
+    },
+    {
+      "section": 1,
+      "kind": "rendered_table",
+      "path": "docs/images/section_01_table.png",
+      "derived_from": "s01_c004_o00"
+    },
+    {
+      "section": 2,
+      "kind": "rendered_table",
+      "path": "docs/images/section_02_table.png",
+      "derived_from": "s02_c006_o00"
+    },
+    {
+      "section": 3,
+      "kind": "rendered_table",
+      "path": "docs/images/section_03_table.png",
+      "derived_from": "s03_c009_o00"
+    },
+    {
+      "section": 4,
+      "kind": "rendered_table",
+      "path": "docs/images/section_04_table.png",
+      "derived_from": "s04_c012_o00"
+    },
+    {
+      "section": 5,
+      "kind": "rendered_table",
+      "path": "docs/images/section_05_table.png",
+      "derived_from": "s05_c015_o00"
+    },
+    {
+      "section": 6,
+      "kind": "rendered_table",
+      "path": "docs/images/section_06_table.png",
+      "derived_from": "s06_c018_o00"
+    },
+    {
+      "section": 7,
+      "kind": "rendered_table",
+      "path": "docs/images/section_07_table.png",
+      "derived_from": "s07_c020_o00"
+    },
+    {
+      "section": 8,
+      "kind": "rendered_table",
+      "path": "docs/images/section_08_table.png",
+      "derived_from": "s08_c022_o00"
+    },
+    {
+      "section": 9,
+      "kind": "rendered_table",
+      "path": "docs/images/section_09_table.png",
+      "derived_from": "s09_c025_o00"
+    },
+    {
+      "section": 10,
+      "kind": "rendered_table",
+      "path": "docs/images/section_10_table.png",
+      "derived_from": "s10_c032_o00"
+    },
+    {
+      "section": 11,
+      "kind": "rendered_table",
+      "path": "docs/images/section_11_table.png",
+      "derived_from": "s11_c034_o00"
+    },
+    {
+      "section": 12,
+      "kind": "rendered_table",
+      "path": "docs/images/section_12_table.png",
+      "derived_from": "s12_c036_o00"
+    },
+    {
+      "section": 13,
+      "kind": "rendered_table",
+      "path": "docs/images/section_13_table.png",
+      "derived_from": "s13_c038_o00"
+    },
+    {
+      "section": 14,
+      "kind": "rendered_table",
+      "path": "docs/images/section_14_table.png",
+      "derived_from": "s14_c040_o00"
+    }
+  ]
+}

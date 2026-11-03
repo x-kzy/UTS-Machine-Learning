@@ -1,0 +1,16 @@
+kolom,dtype,jenis,missing_setelah_audit,n_unique
+TP2,float64,analog,0,5257
+TP3,float64,analog,0,3683
+H1,float64,analog,0,2665
+DV_pressure,float64,analog,0,2257
+Reservoirs,float64,analog,0,3682
+Oil_temperature,float64,analog,0,2462
+Motor_current,float64,analog,0,1809
+COMP,float64,digital,0,2
+DV_eletric,float64,digital,0,2
+Towers,float64,digital,0,2
+MPG,float64,digital,0,2
+LPS,float64,digital,0,2
+Pressure_switch,float64,digital,0,2
+Oil_level,float64,digital,0,2
+Caudal_impulses,float64,digital,0,2
