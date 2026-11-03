@@ -26,7 +26,7 @@
 <br>
 
 </div>
----
+<br>
 **Mata Kuliah:** Machine Learning
 
 **Dosen Pengampu:** Dr. Al Hamidy Hazidar, S.Kom., M.I.T.
@@ -38,7 +38,7 @@
 **Fokus:** Deteksi anomali dengan classical machine learning
 
 **Program Studi:** S-1 Teknik Informatika, Universitas Mikroskil
-
+<br>
 ## Link utama uts
 
 - [Source Google Colab kelompok](https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy?usp=sharing)
