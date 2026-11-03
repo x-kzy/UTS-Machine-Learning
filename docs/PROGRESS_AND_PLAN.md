@@ -22,5 +22,3 @@ Tabel di atas mengikuti urutan kerja yang terdokumentasi pada notebook final. Co
 - Bandingkan kandidat lanjutan seperti One-Class SVM dengan protokol temporal yang sesuai.
 - Periksa perubahan distribusi dan lakukan evaluasi pada periode/data baru bila tersedia.
 - Dokumentasikan penjelasan alarm, keputusan model final, reproduksi dan demonstrasi UAS.
-
-Rencana ini belum dihitung sebagai eksperimen yang selesai. Dataset/masalah tidak diganti hanya untuk mengejar skor.
