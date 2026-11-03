@@ -1,5 +1,4 @@
 <div align="center">
-
 # DETEKSI ANOMALI PADA DATA SENSOR DAN KONDISI MESIN INDUSTRI MENGGUNAKAN DATASET METROPT-3
 
 ### Kelompok 5
@@ -71,7 +70,7 @@ Keluaran UTS meliputi audit dataset, EDA, fitur jendela lima menit, baseline K-M
 | Fitur awal | 25: 14 statistik analog, delapan duty digital, tiga fitur rekayasa |
 | Fitur nonkonstan | 22; kandidat PCA menggunakan tujuh komponen |
 
-Dataset lengkap tersedia melalui sumber UCI dan [skrip unduh dengan pemeriksaan checksum](scripts/download_dataset.py). Repository menyediakan [contoh 1.000 baris sensor](data/sample_sensor_1000.csv), [deskripsi resmi](data/Data_Description_Metro.pdf), dan [petunjuk dataset](data/README.md). Contoh 1.000 baris hanya untuk melihat skema dan tidak cukup untuk mereproduksi eksperimen temporal.
+Dataset lengkap tersedia melalui sumber UCI dan [skrip unduh dengan pemeriksaan checksum](scripts/download_dataset.py). Repository menyediakan [contoh 1.000 baris sensor](data/sample_sensor_1000.csv), [deskripsi resmi](data/Data_Description_Metro.pdf), dan [petunjuk dataset](data/README.md). Contoh 1.000 baris hanya untuk melihat skema dan tidak cukup untuk pengujian ulang seluruh eksperimen temporal.
 
 ## Alur eksperimen
 
@@ -161,20 +160,24 @@ Run baru menulis folder `hasil_b10/run_<ID>/`, grafik, 40 tabel lengkap, model, 
 | `src/b10_runtime.py` | Fungsi fitur dan inferensi mandiri dari Section 5 |
 | `src/b10_export.py` | Penyimpanan hasil run; tidak mengubah model atau prediksi |
 | `data/` | Tautan, atribusi, deskripsi resmi, dan contoh sensor |
-| `docs/` | Galeri per tahap, eksperimen, peta section, kontribusi, dan petunjuk reproduksi |
+| `docs/` | Galeri per tahap, eksperimen, peta section, kontribusi, dan petunjuk pengujian ulang |
 | `results/recorded/` | Tabel dan manifest yang diekstrak dari output final tersimpan |
-| `results/reproduced/latest/` | Satu run reproduksi yang telah diuji beserta tabel lengkap, grafik, model, dan skor |
+| `results/reproduced/latest/` | Hasil pengujian ulang beserta tabel lengkap, grafik, model, dan skor |
 | `reports/` | Laporan Word final |
 | `config/` | Konfigurasi, versi lingkungan asli, hash sumber, dan provenance |
 | `scripts/` | Unduh dataset, menjalankan source, mengekstrak bukti, memeriksa paket, dan push |
 
-## Reproduksi dan batas interpretasi
+## Pengujian Ulang dan Keterbatasan Hasil
 
-Notebook serta laporan final dipertahankan sebagai sumber hasil yang dilaporkan. Source Colab dan lampiran mempunyai 20 sel kode komputasi yang identik. Source Python hasil ekspor telah dijalankan dari awal sampai akhir; pembagian jendela, enam pemeriksaan integritas, dan metrik AP/precision/recall/F1 pada empat angka desimal sesuai dengan output final.
+Notebook Google Colab dan laporan akhir menjadi acuan hasil proyek. Kode pada Google Colab dan lampiran memiliki 20 sel kode yang sama. Kode versi Python juga sudah dijalankan dari awal sampai akhir. Hasilnya menunjukkan jumlah jendela data yang sama, enam pemeriksaan konsistensi program yang lulus, serta nilai AP, precision, recall, dan F1 yang sesuai hingga empat angka desimal.
 
-Lingkungan asli laporan dan lingkungan uji paket dicatat terpisah di `config/original_environment.json` dan `results/reproduced/latest/environment.json`. `requirements.txt` mengunci lingkungan paket yang diuji. Tabel `recorded` mengikuti presisi serta cakupan tampilan notebook; tabel lengkap berpresisi penuh tersedia pada run reproduksi. Waktu fit dapat berbeda antarlingkungan.
+Versi library pada eksperimen laporan dan pengujian ulang dicatat dalam `config/original_environment.json` dan `results/reproduced/latest/environment.json`. File `requirements.txt` berisi versi library untuk menjalankan kode pada lingkungan yang sudah diuji. Tabel pada folder `recorded` mengikuti angka yang ditampilkan dalam notebook, sedangkan tabel lengkap dengan angka lebih rinci tersedia pada hasil pengujian ulang. Waktu pelatihan model dapat berbeda ketika kode dijalankan pada lingkungan yang berbeda.
 
-Empat interval laporan berasal dari satu kompresor dan merupakan pembanding lemah. Benchmark telah diperiksa pada iterasi sebelumnya sehingga tidak disebut hold-out baru. Deteksi 2/2 interval tidak membuktikan seluruh durasi termonitor, diagnosis penyebab kebocoran, prediksi sebelum kegagalan, atau kesiapan industri. PCA dan tiga fitur rekayasa belum meningkatkan AP pada eksperimen yang dilaporkan. [Rencana lanjutan](docs/PROGRESS_AND_PLAN.md) mempertahankan batas tersebut.
+Evaluasi menggunakan empat interval gangguan yang dilaporkan dari satu unit kompresor. Laporan tersebut belum menjelaskan kondisi mesin pada seluruh waktu pengamatan, sehingga waktu di luar laporan belum tentu bebas gangguan. Data benchmark juga sudah pernah diperiksa pada eksperimen sebelumnya, sehingga hasilnya belum menjadi bukti pengujian pada data yang benar-benar belum pernah dilihat.
+
+Model berhasil mendeteksi dua dari dua interval gangguan pada benchmark. Namun, hasil tersebut belum membuktikan bahwa seluruh durasi gangguan berhasil dipantau, penyebab kebocoran dapat ditentukan, atau peringatan dapat diberikan sebelum terjadi kerusakan. Sistem juga masih memerlukan pengujian tambahan sebelum digunakan dalam kegiatan industri.
+
+Pada eksperimen ini, penggunaan PCA dan penambahan tiga fitur rekayasa belum meningkatkan nilai AP dibandingkan pembandingnya. Temuan dan keterbatasan tersebut menjadi dasar penyusunan [rencana pengembangan selanjutnya](docs/PROGRESS_AND_PLAN.md).
 
 ## Pembaruan repository
 
