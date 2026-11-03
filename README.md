@@ -180,6 +180,23 @@ Model berhasil mendeteksi dua dari dua interval gangguan pada benchmark. Namun, 
 
 Pada eksperimen ini, penggunaan PCA dan penambahan tiga fitur rekayasa belum meningkatkan nilai AP dibandingkan pembandingnya. Temuan dan keterbatasan tersebut menjadi dasar penyusunan [rencana pengembangan selanjutnya](docs/PROGRESS_AND_PLAN.md).
 
+## Kesimpulan Proyek UTS
+
+**Tujuan proyek UTS B10 untuk membangun dan membandingkan alur deteksi anomali pada data sensor mesin telah tercapai pada tahap eksperimen.** Pendekatan tanpa supervisi sesuai dengan kondisi dataset MetroPT-3 yang tidak menyediakan label kerusakan pada setiap baris pengamatan.
+
+Capaian utama proyek versi uts ini meliputi:
+
+- **Pengolahan data sensor:** sebanyak 1.516.948 pengamatan dari 15 sensor diolah menjadi 50.276 jendela lima menit yang memenuhi pemeriksaan kualitas.
+- **Pembentukan fitur dan pemodelan:** sebanyak 25 fitur awal dibentuk, dengan 22 fitur tersisa setelah penyaringan fitur konstan. K-Means, PCA + K-Means, dan Isolation Forest berhasil dibandingkan menggunakan pembagian data berdasarkan waktu.
+- **Pembuatan skor dan alarm:** model menghasilkan skor penyimpangan serta alarm yang membutuhkan tiga jendela pelampauan berturut-turut.
+- **Pemeriksaan dan dokumentasi hasil:** enam pemeriksaan integritas berhasil dilalui. Grafik, tabel, hasil eksperimen, notebook, dan laporan tersedia untuk dipelajari serta diuji ulang.
+
+**K-Means dipilih berdasarkan AP validasi tertinggi sebesar 0,2974.** Pada periode benchmark, model ini memperoleh AP 0,8685, precision 0,3362, recall 0,9872, dan F1 0,5016. Alarm muncul pada **dua dari dua interval gangguan benchmark yang teramati**. Isolation Forest memperoleh F1 benchmark lebih tinggi, yaitu 0,6036, sehingga setiap metode tetap mempunyai kelebihan sesuai ukuran penilaian yang digunakan.
+
+Hasil tersebut menunjukkan kemampuan awal untuk mengenali penyimpangan selama interval gangguan. Ketepatan alarm masih perlu diperbaiki karena K-Means melewatkan delapan jendela laporan dan menghasilkan 1.218 jendela alarm di luar laporan. Alarm di luar laporan perlu diperiksa lebih lanjut karena waktu yang tidak tercatat sebagai gangguan belum tentu menunjukkan kondisi mesin yang sehat.
+
+**Hasil UTS memberikan dasar eksperimen untuk pemantauan kondisi mesin**, dengan keterbatasan pada kelengkapan laporan gangguan dan cakupan data dari satu kompresor. Kemampuan menentukan penyebab kerusakan, memberikan peringatan sebelum gangguan, dan digunakan dalam kegiatan industri masih memerlukan pembuktian lanjutan. Pengembangan menuju UAS diarahkan pada verifikasi laporan gangguan, pengujian kontribusi fitur, penyesuaian ambang dan beban alarm, serta evaluasi pada periode atau data baru apabila tersedia.
+
 ## Sumber dan lisensi
 
 Dataset: Davari, N., Veloso, B., Ribeiro, R., dan Gama, J. (2021), **MetroPT-3 Dataset**, UCI Machine Learning Repository, DOI [10.24432/C5VW3R](https://doi.org/10.24432/C5VW3R), lisensi **CC BY 4.0**. Atribusi dan ketentuan data dipertahankan di [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Lisensi kode mengikuti [LICENSE](LICENSE) yang sudah ada pada repository.
