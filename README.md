@@ -42,7 +42,7 @@
 
 ## Link utama uts
 
-- [Source Google Colab kelompok](https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy?usp=sharing)
+- [Source Google Colab UTS](https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy?usp=sharing)
 - [Notebook final beserta output run](notebooks/UTS_ML_B10_Kelompok5.ipynb)
 - [Laporan UTS](reports/Laporan_UTS_ML_B10_Kelompok5.docx)
 - [Dataset resmi UCI MetroPT-3](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset)
