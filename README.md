@@ -45,8 +45,7 @@
 
 - [Source Google Colab kelompok](https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy?usp=sharing)
 - [Notebook final beserta output run](notebooks/UTS_ML_B10_Kelompok5.ipynb)
-- [Buka salinan repository di Google Colab](https://colab.research.google.com/github/x-kzy/UTS-Machine-Learning/blob/main/notebooks/UTS_ML_B10_Kelompok5.ipynb)
-- [Laporan final Word](reports/Laporan_UTS_ML_B10_Kelompok5.docx)
+- [Laporan UTS](reports/Laporan_UTS_ML_B10_Kelompok5.docx)
 - [Dataset resmi UCI MetroPT-3](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset)
 - [Galeri hasil seluruh 14 section](docs/GALLERY.md)
 - [Daftar eksperimen dan interpretasi](docs/EXPERIMENTS.md)
