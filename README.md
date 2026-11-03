@@ -47,7 +47,7 @@
 - [Laporan UTS](reports/Laporan_UTS_ML_B10_Kelompok5.docx)
 - [Dataset resmi UCI MetroPT-3](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset)
 - [Galeri hasil seluruh 14 section](docs/GALLERY.md)
-- [Daftar eksperimen dan interpretasi](docs/EXPERIMENTS.md)
+- [Daftar eksperimen dan hasilnya](docs/EXPERIMENTS.md)
 - [Peta section, milestone, dan materi kuliah](docs/SECTION_MAP.md)
 
 ## Masalah dan tujuan
