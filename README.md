@@ -26,7 +26,7 @@
 <br>
 
 </div>
-
+---
 **Mata Kuliah:** Machine Learning
 
 **Dosen Pengampu:** Dr. Al Hamidy Hazidar, S.Kom., M.I.T.
