@@ -15,8 +15,7 @@
 
 Tabel di atas mengikuti urutan kerja yang terdokumentasi pada notebook final. Commit repository mencatat unggahan dan pembaruan aktual sejak repository digunakan.
 
-## Rencana yang belum menjadi hasil UTS
-
+## Rencana Pengembangan Untuk UAS
 - Verifikasi empat interval gangguan dan contoh alarm di luar laporan bersama pihak yang memahami mesin bila akses tersedia.
 - Uji kontribusi fitur secara individual dan perilaku sinyal digital yang konstan pada referensi tetapi berubah kemudian.
 - Sepakati anggaran episode alarm serta toleransi delay sebelum memilih ambang operasional.
