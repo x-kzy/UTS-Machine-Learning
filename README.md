@@ -27,16 +27,19 @@
 
 </div>
 
-| Identitas | Keterangan |
-| --- | --- |
-| Mata kuliah | Machine Learning |
-| Dosen pengampu | Dr. Al Hamidy Hazidar, S.Kom., M.I.T. |
-| Project ID | B10 |
-| Topik | Data Sensor dan Kondisi Mesin Industri |
-| Fokus | Deteksi anomali dengan classical machine learning |
-| Program studi | S-1 Teknik Informatika, Universitas Mikroskil |
+**Mata Kuliah:** Machine Learning
 
-## Tautan utama
+**Dosen Pengampu:** Dr. Al Hamidy Hazidar, S.Kom., M.I.T.
+
+**Project ID:** B10
+
+**Topik:** Data Sensor dan Kondisi Mesin Industri
+
+**Fokus:** Deteksi anomali dengan classical machine learning
+
+**Program Studi:** S-1 Teknik Informatika, Universitas Mikroskil
+
+## Link utama uts
 
 - [Source Google Colab kelompok](https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy?usp=sharing)
 - [Notebook final beserta output run](notebooks/UTS_ML_B10_Kelompok5.ipynb)
