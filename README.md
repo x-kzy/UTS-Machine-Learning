@@ -199,4 +199,4 @@ Hasil tersebut menunjukkan kemampuan awal untuk mengenali penyimpangan selama in
 
 ## Sumber dan lisensi
 
-Dataset: Davari, N., Veloso, B., Ribeiro, R., dan Gama, J. (2021), **MetroPT-3 Dataset**, UCI Machine Learning Repository, DOI [10.24432/C5VW3R](https://doi.org/10.24432/C5VW3R), lisensi **CC BY 4.0**. Atribusi dan ketentuan data dipertahankan di [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Dataset: Davari, N., Veloso, B., Ribeiro, R., dan Gama, J. (2021), **MetroPT-3 Dataset**, UCI Machine Learning Repository, DOI [10.24432/C5VW3R](https://doi.org/10.24432/C5VW3R), lisensi **CC BY 4.0**. Sumber data dan aturan penggunaannya dicantumkan di [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
