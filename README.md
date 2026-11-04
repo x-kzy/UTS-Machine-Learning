@@ -71,7 +71,7 @@ Keluaran UTS meliputi audit dataset, EDA, fitur jendela lima menit, baseline K-M
 | Fitur awal | 25: 14 statistik analog, delapan duty digital, tiga fitur rekayasa |
 | Fitur nonkonstan | 22; kandidat PCA menggunakan tujuh komponen |
 
-Dataset lengkap tersedia melalui sumber UCI dan [skrip unduh dengan pemeriksaan checksum](scripts/download_dataset.py). Repository menyediakan [contoh 1.000 baris sensor](data/sample_sensor_1000.csv), [deskripsi resmi](data/Data_Description_Metro.pdf), dan [petunjuk dataset](data/README.md). Contoh 1.000 baris hanya untuk melihat skema dan tidak cukup untuk pengujian ulang seluruh eksperimen temporal.
+Repository menyediakan [contoh 1.000 baris sensor](data/sample_sensor_1000.csv), [deskripsi resmi](data/Data_Description_Metro.pdf), dan [petunjuk dataset](data/README.md). Contoh 1.000 baris ini digunakan untuk melihat susunan kolom dan bentuk data. Untuk menjalankan ulang seluruh eksperimen berdasarkan urutan waktu saja. 
 
 ## Alur eksperimen
 
