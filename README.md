@@ -19,7 +19,7 @@
 [Buka Dataset UCI Machine Learning](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset)
 
 **Link Berkas Lengkap UTS - Source Code dan Laporan:**  
-[Buka Berkas Lengkap UTS](GANTI_DENGAN_LINK_BERKAS_LENGKAP_UTS)
+[Buka Berkas Lengkap UTS](https://mikroskilacid-my.sharepoint.com/:f:/g/personal/havidz_andrian_students_mikroskil_ac_id/IgAEw0vYQksgSqMl_R0KOZ1YAS7iKSM1Je-fteaHomgHrOU?e=5VMgCE)
 
 <br>
 
@@ -45,7 +45,7 @@
 
 - [Source Google Colab UTS](https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy?usp=sharing)
 - [Notebook final beserta output run](notebooks/UTS_ML_B10_Kelompok5.ipynb)
-- [Laporan UTS](reports/Laporan_UTS_ML_B10_Kelompok5.docx)
+- [Laporan UTS_Milestone 1](reports/Laporan_UTS_ML_B10_Kelompok5.docx)
 - [Milestone UTS Minggu 2-6](https://github.com/x-kzy/UTS-Machine-Learning/blob/main/MILESTONE%20UTS%20ML%20M2-M6.pdf)
 - [Dataset resmi UCI MetroPT-3](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset)
 - [Galeri hasil seluruh 14 section](docs/GALLERY.md)
