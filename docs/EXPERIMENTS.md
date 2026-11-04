@@ -2,7 +2,7 @@
 
 [README](../README.md) · [Galeri](GALLERY.md) · [Tabel lengkap run reproduksi](../results/reproduced/latest/tables/)
 
-Catatan ini merangkum eksperimen yang ada pada notebook final. Log run berisi pemanggilan fit aktual, konfigurasi dan waktu fit; riwayat Git mencatat unggahan serta perubahan repository.
+Catatan ini merangkum eksperimen yang ada pada notebook source code. Log run berisi pemanggilan fit, konfigurasi dan waktu fit; riwayat Git mencatat unggahan serta perubahan repository.
 
 ## Protokol yang dipertahankan
 
