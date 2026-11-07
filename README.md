@@ -19,7 +19,7 @@
 [Buka Dataset UCI Machine Learning](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset)
 
 **Link Berkas Lengkap UTS - Source Code dan Laporan:**  
-[Buka Berkas Lengkap UTS](https://mikroskilacid-my.sharepoint.com/:f:/g/personal/havidz_andrian_students_mikroskil_ac_id/IgAEw0vYQksgSqMl_R0KOZ1YAS7iKSM1Je-fteaHomgHrOU?e=5VMgCE)
+[Buka File Lengkap UTS_B10](https://mikroskilacid-my.sharepoint.com/:f:/g/personal/havidz_andrian_students_mikroskil_ac_id/IgAEw0vYQksgSqMl_R0KOZ1YAS7iKSM1Je-fteaHomgHrOU?e=5VMgCE)
 
 <br>
 
