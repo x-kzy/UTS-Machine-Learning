@@ -46,7 +46,7 @@
 ## Shortcut cepat terkait uts:
 
 - [Source Google Colab UTS](https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy?usp=sharing)
-- [Laporan UTS_Milestone 1](Laporan_UTS_MILESTONE_1_ML_KELOMPOK5.pdf)
+- [Laporan UTS_Milestone 1](Laporan_UTS_MILESTONE_1_ML_KELOMPOK_5.pdf)
 - [Milestone UTS Minggu 2-6](https://github.com/x-kzy/UTS-Machine-Learning/blob/main/MILESTONE%20UTS%20ML%20M2-M6.pdf)
 - [Dataset resmi UCI MetroPT-3](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset)
 - [Galeri hasil seluruh 14 section](docs/GALLERY.md)
@@ -165,7 +165,7 @@ Run baru menulis folder `hasil_b10/run_<ID>/`, grafik, 40 tabel lengkap, model, 
 | `docs/` | Galeri per tahap, eksperimen, peta section, kontribusi, dan petunjuk pengujian ulang |
 | `results/recorded/` | Tabel dan manifest yang diekstrak dari output final tersimpan |
 | `results/reproduced/latest/` | Hasil pengujian ulang beserta tabel lengkap, grafik, model, dan skor |
-| `reports/` | Laporan Word final |
+| `reports/` | Penunjuk laporan PDF final Milestone 1 |
 | `config/` | Konfigurasi, versi lingkungan asli, hash sumber, dan provenance |
 | `scripts/` | Unduh dataset, menjalankan source, mengekstrak bukti, memeriksa paket, dan push |
 
@@ -180,6 +180,14 @@ Evaluasi menggunakan empat interval gangguan yang dilaporkan dari satu unit komp
 Model berhasil mendeteksi dua dari dua interval gangguan pada benchmark. Namun, hasil tersebut belum membuktikan bahwa seluruh durasi gangguan berhasil dipantau, penyebab kebocoran dapat ditentukan, atau peringatan dapat diberikan sebelum terjadi kerusakan. Sistem juga masih memerlukan pengujian tambahan sebelum digunakan dalam kegiatan industri.
 
 Pada eksperimen ini, penggunaan PCA dan penambahan tiga fitur rekayasa belum meningkatkan nilai AP dibandingkan pembandingnya. Temuan dan keterbatasan tersebut menjadi dasar penyusunan [rencana pengembangan selanjutnya](docs/PROGRESS_AND_PLAN.md).
+
+## Rencana pengembangan UAS (rencana, belum hasil)
+
+Berdasarkan BAB V laporan, tahap UAS melanjutkan dataset MetroPT-3 dan model classical machine learning yang telah diuji pada Milestone 1. Pekerjaan berikutnya meliputi peninjauan interval gangguan F01-F04, uji kontribusi fitur dan fitur temporal kausal, pengendalian beban alarm, evaluasi kandidat One-Class SVM apabila memungkinkan, analisis drift, dan penguatan reproduksibilitas. Seluruh hasil UTS pada bagian sebelumnya tetap menjadi baseline historis dan bukan hasil UAS.
+
+- [Rencana UAS terperinci](docs/PROGRESS_AND_PLAN.md)
+- [Checklist progres UAS](docs/UAS_CHECKLIST.md)
+- [Laporan PDF resmi Milestone 1](Laporan_UTS_MILESTONE_1_ML_KELOMPOK_5.pdf)
 
 ## Kesimpulan Proyek UTS
 

@@ -12,7 +12,10 @@ def main():
     notebook = json.loads((ROOT/'notebooks/UTS_ML_B10_Kelompok5.ipynb').read_text(encoding='utf-8'))
     provenance = json.loads((ROOT/'config/provenance.json').read_text(encoding='utf-8'))
     assert hashlib.sha256((ROOT/'notebooks/UTS_ML_B10_Kelompok5.ipynb').read_bytes()).hexdigest() == provenance['canonical_notebook']['sha256']
-    assert hashlib.sha256((ROOT/'reports/Laporan_UTS_ML_B10_Kelompok5.docx').read_bytes()).hexdigest() == provenance['report']['sha256']
+    report_path = ROOT / provenance['report']['file']
+    assert report_path.is_file(), 'Laporan PDF final tidak ditemukan'
+    assert report_path.suffix.lower() == '.pdf', 'Laporan wajib PDF'
+    assert hashlib.sha256(report_path.read_bytes()).hexdigest() == provenance['report']['sha256'], 'Hash PDF final tidak cocok'
     code = '\n\n'.join(''.join(c['source']) for c in notebook['cells'] if c['cell_type']=='code')
     canonical = ast.parse(code).body
     exported = ast.parse((ROOT/'src/uts_ml.py').read_text(encoding='utf-8')).body
