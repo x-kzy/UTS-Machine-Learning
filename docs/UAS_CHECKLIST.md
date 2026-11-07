@@ -1,6 +1,6 @@
-# Checklist Pelaksanaan UAS — Proyek B10 Kelompok 5
+# Checklist Pelaksanaan UAS - Proyek B10 Kelompok 5
 
-> **Daftar rencana.** Belum ada tugas UAS yang dinyatakan selesai berdasarkan laporan Milestone 1. Tandai item hanya setelah ada hasil eksperimen/bukti yang dapat diperiksa.
+> **Daftar rencana.** Semua yang ada disini masih bersifat rencana dan belum tentu semuanya akan diterapkan pada UAS nantinya, bisa jadi ada yang dipakai/diganti/dihapus.
 
 - [ ] **Verifikasi pembanding:** dokumentasikan tinjauan F01–F04, ketidakpastian label, jendela tidak layak, dan pemeriksaan batas interval.
 - [ ] **Ablation individual:** bandingkan kontribusi fitur dan kelompok sensor, termasuk fitur digital yang konstan pada training.
