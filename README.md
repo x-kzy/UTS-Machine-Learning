@@ -43,10 +43,9 @@
 
 <br>
 
-## Link utama uts
+## Shortcut cepat terkait uts:
 
 - [Source Google Colab UTS](https://colab.research.google.com/drive/1uxisVuBymipt9o8ZMAF2SnYar2xQGxJy?usp=sharing)
-- [Notebook final beserta output run](notebooks/UTS_ML_B10_Kelompok5.ipynb)
 - [Laporan UTS_Milestone 1](Laporan_UTS_MILESTONE_1_ML_KELOMPOK5.pdf)
 - [Milestone UTS Minggu 2-6](https://github.com/x-kzy/UTS-Machine-Learning/blob/main/MILESTONE%20UTS%20ML%20M2-M6.pdf)
 - [Dataset resmi UCI MetroPT-3](https://archive.ics.uci.edu/dataset/791/metropt+3+dataset)
