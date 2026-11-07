@@ -203,7 +203,7 @@ Hasil tersebut menunjukkan kemampuan awal untuk mengenali penyimpangan selama in
 ## Rencana untuk UAS
 Tahapan rencana untuk UAS adalah melanjutkan dataset MetroPT-3 dan model classical machine learning yang telah diuji pada Milestone 1. Project berikutnya meliputi peninjauan interval gangguan F01-F04, uji kontribusi fitur dan fitur temporal kausal, pengendalian beban alarm, evaluasi kandidat One-Class SVM apabila memungkinkan, analisis drift, dan penguatan reproduksibilitas. Seluruh hasil UTS pada bagian sebelumnya tetap menjadi baseline historis dan bukan hasil UAS.
 
-- [Rencana UAS terperinci](docs/PROGRESS_AND_PLAN.md)
+- [Detail_Rencana UAS](docs/PROGRESS_AND_PLAN.md)
 - [Checklist progres UAS](docs/UAS_CHECKLIST.md)
 - [Laporan PDF resmi Milestone 1](Laporan_UTS_MILESTONE_1_ML_KELOMPOK_5.pdf)
 
