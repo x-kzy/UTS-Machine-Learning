@@ -1,5 +1,5 @@
 <div align="center">
-
+**UTS Machine Learning**
 # DETEKSI ANOMALI PADA DATA SENSOR DAN KONDISI MESIN INDUSTRI MENGGUNAKAN DATASET METROPT-3
 
 ### Kelompok 5
@@ -7,8 +7,6 @@
 **Havidz Andrian** (NIM: 231111899)<br>
 **Fikri Anwar** (NIM: 231112145)<br>
 **Purba Tua Siregar** (NIM: 231112463)
-
-**UTS Machine Learning · Project ID: B10**
 
 <br>
 
