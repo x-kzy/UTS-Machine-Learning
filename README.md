@@ -1,7 +1,7 @@
 <div align="center">
 
 # DETEKSI ANOMALI PADA DATA SENSOR DAN KONDISI MESIN INDUSTRI MENGGUNAKAN DATASET METROPT-3
-# UTS Machine Learning
+# UTS-MACHINE LEARNING
 ### Kelompok 5
 
 **Havidz Andrian** (NIM: 231111899)<br>
@@ -24,6 +24,10 @@
 **Mata Kuliah:** Machine Learning
 
 **Dosen Pengampu:** Dr. Al Hamidy Hazidar, S.Kom., M.I.T.
+
+**Kelas:** IF B-PAGI
+
+**Semester:** 7
 
 **Project ID:** B10
 
