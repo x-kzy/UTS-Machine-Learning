@@ -1,6 +1,6 @@
-# Progres Milestone 1 (UTS) dan Rencana Pengembangan UAS — B10 Kelompok 5
+# Progres Milestone 1 (UTS) dan Rencana Pengembangan UAS 0 B10 Kelompok 5
 
-> **Status:** Proyek Milestone 1 telah menghasilkan eksperimen awal. Bagian **Rencana UAS** di bawah merupakan pekerjaan **yang belum diklaim selesai**. Rujukan utama: *Laporan UTS Milestone 1 Kelompok 5*, BAB V, khususnya subbab 5.1–5.3, halaman tercetak 32–35.
+> **Status:** Proyek Milestone 1 telah menghasilkan eksperimen awal. Bagian **Rencana UAS** di bawah merupakan pekerjaan **yang belum diklaim selesai** dan semua yang ada disini masih bersifat rencana dan belum tentu semuanya akan diterapkan pada UAS nantinya, bisa jadi ada yang dipakai/diganti/dihapus. Rujukan utama: *Laporan UTS Milestone 1 Kelompok 5*, BAB V, khususnya subbab 5.1–5.3, halaman tercetak 32–35.
 
 ## 1. Dasar keputusan: hasil dan keterbatasan UTS
 
