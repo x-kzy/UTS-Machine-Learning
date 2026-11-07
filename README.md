@@ -53,7 +53,7 @@
 - [Daftar eksperimen dan hasilnya](docs/EXPERIMENTS.md)
 - [Peta section, milestone, dan materi kuliah](docs/SECTION_MAP.md)
 - [Kesimpulan UTS](#kesimpulan-proyek-uts)
-- [Rencana untuk UAS](#r#rencana-untuk-uas)
+- [Rencana untuk UAS](rencana-pengembangan-uas-rencana-belum-hasil)
 
 ## Masalah dan tujuan
 
