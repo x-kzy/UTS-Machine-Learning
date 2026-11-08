@@ -120,15 +120,15 @@ Galeri memuat **18 grafik dari output notebook**, **52 tabel tersimpan**, dan **
 
 | Tahap | Bukti dan temuan utama |
 | --- | --- |
-| [1–3: persiapan dan pemahaman data](docs/stages/02.md) | Versi lingkungan, sumber dan skema, audit sensor, interval laporan, serta pembagian waktu |
-| [4: EDA](docs/stages/04.md) | Perbedaan skala; korelasi TP3–Reservoirs 0,999991; nilai ekstrem dipertahankan |
-| [5–6: fitur dan baseline](docs/stages/05.md) | 25 fitur, seleksi jendela, pipeline train-only, kalibrasi P99, dan alarm persisten |
-| [7: eksperimen K](docs/stages/07.md) | K=2–6; silhouette tertinggi K=2, K=3 tetap untuk pembandingan terkontrol |
+| [1-3: persiapan dan pemahaman data](docs/stages/02.md) | Versi lingkungan, sumber dan skema, audit sensor, interval laporan, serta pembagian waktu |
+| [4: EDA](docs/stages/04.md) | Perbedaan skala; korelasi TP3-Reservoirs 0,999991; nilai ekstrem dipertahankan |
+| [5-6: fitur dan baseline](docs/stages/05.md) | 25 fitur, seleksi jendela, pipeline train-only, kalibrasi P99, dan alarm persisten |
+| [7: eksperimen K](docs/stages/07.md) | K=2-6; silhouette tertinggi K=2, K=3 tetap untuk pembandingan terkontrol |
 | [8: kandidat](docs/stages/08.md) | PCA tujuh komponen mempertahankan 95,692% varians; Isolation Forest 200 pohon |
 | [9: validasi dan eksperimen tambahan](docs/stages/09.md) | Lima fold temporal, kurva PR, ablation 22 vs 25 fitur, dan sembilan kombinasi sensitivitas |
-| [10–11: benchmark dan diagnosis](docs/stages/10.md) | Confusion matrix, cakupan laporan, episode alarm, error slicing, dan perubahan distribusi |
+| [10-11: benchmark dan diagnosis](docs/stages/10.md) | Confusion matrix, cakupan laporan, episode alarm, error slicing, dan perubahan distribusi |
 | [12: inferensi](docs/stages/12.md) | Sensor mentah menjadi fitur dan prediksi; enam pemeriksaan integritas lulus |
-| [13–14: ringkasan dan kesimpulan](docs/stages/14.md) | Perubahan skala/dimensi, pencapaian tujuan, trade-off metrik, dan batas penggunaan |
+| [13-14: ringkasan dan kesimpulan](docs/stages/14.md) | Perubahan skala/dimensi, pencapaian tujuan, trade-off metrik, dan batas penggunaan |
 
 ![Ringkasan penyiapan data](docs/images/s13_c038_o01.png)
 
