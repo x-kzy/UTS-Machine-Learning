@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # DETEKSI ANOMALI PADA DATA SENSOR DAN KONDISI MESIN INDUSTRI MENGGUNAKAN DATASET METROPT-3
@@ -73,7 +74,7 @@ Keluaran UTS meliputi audit dataset, EDA, fitur jendela lima menit, baseline K-M
 | Fitur awal | 25: 14 statistik analog, delapan duty digital, tiga fitur rekayasa |
 | Fitur nonkonstan | 22; kandidat PCA menggunakan tujuh komponen |
 
-Repository menyediakan [contoh 1.000 baris sensor](data/sample_sensor_1000.csv), [deskripsi resmi](data/Data_Description_Metro.pdf), dan [petunjuk dataset](data/README.md). Contoh 1.000 baris ini digunakan untuk melihat susunan kolom dan bentuk data. Untuk menjalankan ulang seluruh eksperimen berdasarkan urutan waktu saja. 
+Repository menyediakan [contoh 1.000 baris sensor](data/sample_sensor_1000.csv), [deskripsi resmi](data/Data_Description_Metro.pdf), dan [petunjuk dataset](data/README.md). Contoh 1.000 baris ini digunakan untuk melihat susunan kolom dan bentuk data. Untuk menjalankan ulang seluruh eksperimen berdasarkan urutan waktu saja.
 
 ## Alur eksperimen
 
@@ -156,6 +157,188 @@ Run baru menulis folder `hasil_b10/run_<ID>/`, grafik, 40 tabel lengkap, model, 
 
 ## Struktur repository
 
+Repository **UTS-Machine-Learning** disusun untuk memisahkan kode sumber, dataset, konfigurasi, dokumentasi, laporan akademik, dan hasil eksperimen. Struktur ini memudahkan penelusuran setiap tahapan penelitian, pemeriksaan hasil yang telah tersimpan, serta pengujian ulang tanpa mengubah hasil asli Milestone 1.
+
+```text
+UTS-Machine-Learning/
+│
+├── README.md
+│   # Ringkasan proyek, dataset, eksperimen, hasil, dan navigasi
+│
+├── Laporan_UTS_MILESTONE_1_ML_KELOMPOK_5.pdf
+│   # Laporan akhir UTS Milestone 1 Kelompok 5
+│
+├── MILESTONE UTS ML M2-M6.pdf
+│   # Dokumen milestone minggu 2 sampai minggu 6
+│
+├── notebooks/
+│   └── UTS_ML_B10_Kelompok5.ipynb
+│       # Notebook utama 14 section dengan kode dan output tersimpan
+│
+├── src/
+│   ├── __init__.py
+│   │   # Inisialisasi package Python
+│   ├── uts_ml.py
+│   │   # Ekspor source code dari notebook utama
+│   ├── b10_runtime.py
+│   │   # Fungsi pembentukan fitur dan inferensi sensor
+│   └── b10_export.py
+│       # Ekspor hasil eksperimen, tabel, dan artefak
+│
+├── data/
+│   ├── README.md
+│   │   # Petunjuk sumber, penggunaan, dan pengunduhan dataset
+│   ├── Data_Description_Metro.pdf
+│   │   # Dokumentasi resmi sensor dan dataset MetroPT-3
+│   ├── laporan_gangguan.csv
+│   │   # Interval laporan gangguan sebagai pembanding evaluasi
+│   └── sample_sensor_1000.csv
+│       # Contoh 1.000 observasi untuk pemeriksaan struktur CSV
+│
+├── config/
+│   ├── experiment.json
+│   │   # Pengaturan eksperimen dan konfigurasi model
+│   ├── original_environment.json
+│   │   # Informasi lingkungan dan versi library eksperimen awal
+│   └── provenance.json
+│       # Informasi sumber dan asal artefak penelitian
+│
+├── docs/
+│   ├── GALLERY.md
+│   │   # Galeri visualisasi dan hasil dari 14 section notebook
+│   ├── SECTION_MAP.md
+│   │   # Peta section, milestone, dan materi pembelajaran
+│   ├── EXPERIMENTS.md
+│   │   # Daftar eksperimen, evaluasi, dan perbandingan model
+│   ├── PROGRESS_AND_PLAN.md
+│   │   # Progres UTS dan rencana pengembangan menuju UAS
+│   ├── UAS_CHECKLIST.md
+│   │   # Checklist pekerjaan dan pengembangan UAS
+│   ├── RUN_AND_UPDATE.md
+│   │   # Panduan menjalankan dan memperbarui proyek
+│   ├── TEAM.md
+│   │   # Dokumentasi kelompok dan kontribusi anggota
+│   │
+│   ├── stages/
+│   │   ├── 01.md
+│   │   ├── 02.md
+│   │   ├── 03.md
+│   │   ├── 04.md
+│   │   ├── 05.md
+│   │   ├── 06.md
+│   │   ├── 07.md
+│   │   ├── 08.md
+│   │   ├── 09.md
+│   │   ├── 10.md
+│   │   ├── 11.md
+│   │   ├── 12.md
+│   │   ├── 13.md
+│   │   └── 14.md
+│   │       # Dokumentasi setiap section dari awal hingga akhir
+│   │
+│   └── images/
+│       ├── s00_c002_o00.png
+│       ├── s03_c009_o03.png
+│       ├── s04_c012_o02.png
+│       ├── ...
+│       ├── s13_c038_o01.png
+│       ├── s14_c040_o01.png
+│       ├── s14_c040_o02.png
+│       │   # 18 grafik hasil output notebook
+│       │
+│       ├── section_01_table.png
+│       ├── section_02_table.png
+│       ├── ...
+│       └── section_14_table.png
+│           # 14 gambar cuplikan tabel dari setiap section
+│
+├── results/
+│   ├── README.md
+│   │   # Petunjuk membaca hasil dan artefak eksperimen
+│   │
+│   ├── recorded/
+│   │   ├── output_manifest.json
+│   │   │   # Manifest hasil output yang tersimpan
+│   │   └── tables/
+│   │       # 52 tabel CSV dari output notebook final
+│   │
+│   └── reproduced/
+│       └── latest/
+│           ├── B10_model_bundle.joblib
+│           │   # Bundle model hasil pengujian ulang
+│           ├── SHA256SUMS.txt
+│           │   # Checksum untuk pemeriksaan integritas
+│           ├── b10_runtime.py
+│           │   # Salinan kode runtime pada hasil ekspor
+│           ├── configuration.json
+│           │   # Konfigurasi eksperimen yang dijalankan
+│           ├── data_audit.json
+│           │   # Ringkasan audit dataset
+│           ├── demo_raw_sensor.csv
+│           │   # Data sensor untuk pemeriksaan inferensi
+│           ├── environment.json
+│           │   # Informasi lingkungan pengujian ulang
+│           ├── experiment_log.json
+│           │   # Log pelaksanaan eksperimen
+│           ├── export_inventory.json
+│           │   # Inventaris artefak hasil ekspor
+│           ├── scores_and_alarms.csv.gz
+│           │   # Skor anomali dan keluaran alarm
+│           │
+│           ├── grafik/
+│           │   # Grafik evaluasi dan analisis hasil pengujian ulang
+│           │
+│           └── tables/
+│               # Tabel hasil pengujian ulang secara terperinci
+│
+├── reports/
+│   └── README.md
+│       # Petunjuk dan referensi laporan Milestone 1
+│
+├── scripts/
+│   ├── download_dataset.py
+│   │   # Mengunduh dan menyiapkan sumber dataset
+│   ├── run_project.py
+│   │   # Menjalankan eksperimen melalui source Python
+│   ├── build_evidence.py
+│   │   # Membentuk dan mengekstrak dokumentasi bukti
+│   ├── verify_repository.py
+│   │   # Memeriksa struktur dan kelengkapan repository
+│   └── push_to_github.ps1
+│       # Prosedur pembaruan repository melalui PowerShell
+│
+├── JALANKAN_EKSPERIMEN.cmd
+│   # Menjalankan eksperimen lokal melalui Windows CMD
+│
+├── PUSH_KE_GITHUB.cmd
+│   # Menjalankan proses upload ke GitHub
+│
+├── requirements.txt
+│   # Daftar dependensi Python dan versi library
+│
+├── repository_manifest.json
+│   # Manifest struktur dan inventaris repository
+│
+├── THIRD_PARTY_NOTICES.md
+│   # Atribusi dataset dan sumber pihak ketiga
+│
+├── LICENSE
+│   # Ketentuan lisensi repository
+│
+├── .gitignore
+│   # Pengaturan file yang tidak dimasukkan ke Git
+│
+├── .gitattributes
+│   # Pengaturan atribut Git
+│
+└── .github/
+    └── ISSUE_TEMPLATE/
+        └── eksperimen.md
+            # Template pencatatan eksperimen dan pengembangan
+```
+
+### Penjelasan direktori utama
+
 | Lokasi | Isi |
 | --- | --- |
 | `notebooks/` | Notebook final dengan kode dan output asli |
@@ -169,6 +352,27 @@ Run baru menulis folder `hasil_b10/run_<ID>/`, grafik, 40 tabel lengkap, model, 
 | `reports/` | Penunjuk laporan PDF final Milestone 1 |
 | `config/` | Konfigurasi, versi lingkungan asli, hash sumber, dan provenance |
 | `scripts/` | Unduh dataset, menjalankan source, mengekstrak bukti, memeriksa paket, dan push |
+
+### Navigasi file dan dokumentasi
+
+| Kategori | Tautan | Keterangan |
+| --- | --- | --- |
+| Notebook | [Notebook UTS Kelompok 5](notebooks/UTS_ML_B10_Kelompok5.ipynb) | Kode utama dan output 14 section |
+| Laporan | [PDF Milestone 1](Laporan_UTS_MILESTONE_1_ML_KELOMPOK_5.pdf) | Laporan akademik hasil UTS |
+| Milestone | [Minggu 2-6](MILESTONE%20UTS%20ML%20M2-M6.pdf) | Dokumen tahapan milestone |
+| Dataset | [Petunjuk data](data/README.md) | Sumber, skema, dan penggunaan dataset |
+| Dokumentasi | [Galeri hasil](docs/GALLERY.md) | Grafik dan bukti output notebook |
+| Dokumentasi | [Peta section](docs/SECTION_MAP.md) | Navigasi seluruh 14 section |
+| Eksperimen | [Hasil eksperimen](docs/EXPERIMENTS.md) | Model, evaluasi, dan analisis hasil |
+| Hasil tersimpan | [Output recorded](results/recorded/) | Tabel hasil yang telah direkam |
+| Pengujian ulang | [Hasil reproduced](results/reproduced/latest/) | Model, grafik, tabel, dan checksum |
+| Panduan | [Menjalankan proyek](docs/RUN_AND_UPDATE.md) | Petunjuk eksekusi dan pembaruan |
+| Pengembangan | [Rencana UAS](docs/PROGRESS_AND_PLAN.md) | Rencana pengembangan setelah UTS |
+| Tim | [Kontribusi kelompok](docs/TEAM.md) | Dokumentasi anggota dan kontribusi |
+
+Kode, output notebook, hasil eksperimen, dan laporan dipertahankan sebagai dokumentasi Milestone 1. Folder `recorded` digunakan untuk menyimpan bukti hasil notebook, sedangkan folder `reproduced` menyimpan hasil pengujian ulang beserta artefaknya.
+
+Dengan pemisahan tersebut, pemeriksaan hasil dapat dilakukan tanpa harus menjalankan kembali seluruh model. Pengujian ulang tetap dapat dilakukan menggunakan kode, konfigurasi, dan dependensi yang tersedia di repository.
 
 ## Pengujian Ulang dan Keterbatasan Hasil
 
@@ -200,6 +404,7 @@ Hasil tersebut menunjukkan kemampuan awal untuk mengenali penyimpangan selama in
 **Hasil versi UTS memberikan dasar eksperimen untuk pemantauan kondisi mesin**, dengan keterbatasan pada kelengkapan laporan gangguan dan cakupan data dari satu kompresor. Kemampuan menentukan penyebab kerusakan, memberikan peringatan sebelum gangguan, dan digunakan dalam kegiatan industri masih memerlukan pembuktian lanjutan. Pengembangan menuju UAS diarahkan pada verifikasi laporan gangguan, pengujian kontribusi fitur, penyesuaian ambang dan beban alarm, serta evaluasi pada periode atau data baru apabila tersedia.
 
 ## Rencana untuk UAS
+
 Tahapan rencana untuk UAS adalah melanjutkan dataset MetroPT-3 dan model classical machine learning yang telah diuji pada Milestone 1. Project berikutnya meliputi peninjauan interval gangguan F01-F04, uji kontribusi fitur dan fitur temporal kausal, pengendalian beban alarm, evaluasi kandidat One-Class SVM apabila memungkinkan, analisis drift, dan penguatan reproduksibilitas. Seluruh hasil UTS pada bagian sebelumnya tetap menjadi baseline historis dan bukan hasil UAS.
 
 - [Detail_Rencana UAS](docs/PROGRESS_AND_PLAN.md)
